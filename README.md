@@ -30,6 +30,35 @@ Task Breakdown: Zhuohong Yang:
                 Ali: 
                 Mann: 
 
+  Meeting Minutes: Meeting minute 1	19/09/2023  5:00pm
+
+Attendees: Jason, Assane, Mann, Alimurat
+
+Objectives clarification
+tools that we’re gonna use
+Team member roles distribution
+Decided work scope
+Separate tasks for sprint 1
+Meeting Next tuesday(?)
+
+Meeting minute 2	20/09/2023  5:00pm
+
+Attendees: Jason, Assane, Mann, Alimurat
+
+Verification of the advancement of the tasks
+clarification made about roles
+
+Meeting minute 3	21/09/2023  4:15pm
+
+
+Attendees: Jason, Assane, Mann, Alimurat, Alex
+
+Verifying the components of the sprint 1 evaluations
+Organize the future details of the projects 
+Formatting previous tasks done
+Tasks distribution to each member assigned according to the Task Breakdown
+
+
  
 Plan for next sprint: We are expected to have the login and register model ready, and It should be connected to the backend database (Mongodb). We are also expected to have some Front-end features done. By next week before October, we are expected to have the login and register functionality working. By October 10th, we are expected to have some Main page front-end features done like listing creation. The rest of the time we are not sure yet, we need to see how the project goes.
 
