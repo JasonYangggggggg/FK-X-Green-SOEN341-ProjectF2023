@@ -129,8 +129,8 @@ Together -> For System Administrator:
 
 1)  Broker Profile CRUD: (2)
    
-    -Implement comprehensive CRUD functionality for managing broker profiles.
-    -Include validation for data entry and secure data storage.
+    a)Implement comprehensive CRUD functionality for managing broker profiles.
+    b)Include validation for data entry and secure data storage.
     
 2) Security and User Access Management: (4)
    
