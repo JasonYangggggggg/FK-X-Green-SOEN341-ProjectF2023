@@ -63,3 +63,57 @@ Tasks distribution to each member assigned according to the Task Breakdown
 Plan for next sprint: We are expected to have the login and register model ready, and It should be connected to the backend database (Mongodb). We are also expected to have some Front-end features done. By next week before October, we are expected to have the login and register functionality working. By October 10th, we are expected to have some Main page front-end features done like listing creation. The rest of the time we are not sure yet, we need to see how the project goes.
 
 Detail log of each member's contribution: Sprint 1 contribution: Zhuohong Yang done Task breakdown, Project Approach and Technology. Assane done task breakdown, plan for next sprint. Alimurat & mann done user story. 
+
+Task break-down
+
+Zhuohong Yang & Assane - > For Homebuyer and Property Renter (Parent Task): 
+1.       User Registration and Authentication (Parent task for the whole application):
+-          Implement user registration and login functionality.
+2.       Property Search and Filtering (Child task for listing creation/display): 
+-          Develop search functionality allowing users to search for properties based on criteria (location, price range, bedrooms, amenities).
+-          Implement advanced filters for efficient property selection.
+3.       Property Listings Display (parent task):
+-          Create a user-friendly interface to display property listings.
+-          Include property details, images, and descriptions.
+-          Enable users to view property locations on a map.
+4.       Save Favorites (child task for listing creation/display):
+-          Implement the ability for users to save their favorite property listings.
+-          Develop a comparison feature for saved listings.
+5.       Property Viewing Requests (child class for listing creation/display):
+-          Add a feature for users to request property viewings through the system.
+-          Implement notifications for viewing requests and confirmations.
+6.       Contact Property Owners/Managers (child class for listing creation/display):
+-          Allow users to contact property owners or managers through the platform.
+-          Implement messaging or contact forms.
+
+Mann Patel & Alimurat Dinchdonmez & Alex Tong  -> For Broker:
+
+1. Broker Authentication and Profile Management:
+- Develop secure login functionality for brokers.
+-          Create broker profiles with detailed information.
+-          Implement profile updates and password change features.
+2.       Property Offer Submission:
+-          Develop a feature for brokers to submit property purchase offers.
+-          Include fields for pricing and property details.
+-          Ensure secure data transmission.
+3.       Offer Management:
+-          Create a dashboard for brokers to view submitted offers.
+-          Display offer statuses (e.g., pending, accepted, rejected).
+-          Implement real-time notifications for offer status changes.
+4.       Property Management:
+-          Allow brokers to manage property listings.
+-          Add, edit, or remove property listings.
+-          Implement features for property visits and schedules.
+5.       Client Preferences and Matching:
+-          Develop a system for brokers to manage client preferences.
+-          Enable brokers to find properties that match client criteria efficiently.
+Together -> For System Administrator:
+1.       Broker Profile CRUD:
+-          Implement comprehensive CRUD functionality for managing broker profiles.
+-          Include validation for data entry and secure data storage.
+2.       Security and User Access Management:
+-          Secure the login page with appropriate security measures.
+-          Implement role-based access control (RBAC) for system administrators.
+3.       Administrative Reports:
+-          Develop a reporting module for generating administrative reports.
+-          Include data related to broker profiles and activities.
