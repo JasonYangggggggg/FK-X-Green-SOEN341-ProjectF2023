@@ -70,11 +70,12 @@ We’re going to classify the tasks from a range of 1 to 5 determining the amoun
 
 Zhuohong Yang & Assane - > For Homebuyer and Property Renter (Parent Task): 
 1) User Registration and Authentication (Parent task for the whole application): (3)
+   
 a)Implement user registration and login functionality.
-2) Property Search and Filtering (Child task for listing creation/display): (4)
+3) Property Search and Filtering (Child task for listing creation/display): (4)
 a)Develop search functionality allowing users to search for properties based on criteria (location, price range, bedrooms, amenities).
 b)Implement advanced filters for efficient property selection.
-3) Property Listings Display (parent task): (3)
+4) Property Listings Display (parent task): (3)
 -          Create a user-friendly interface to display property listings.
 -          Include property details, images, and descriptions.
 -          Enable users to view property locations on a map.
