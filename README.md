@@ -67,12 +67,13 @@ Detail log of each member's contribution: Sprint 1 contribution: Zhuohong Yang d
 Task break-down
 
 Zhuohong Yang & Assane - > For Homebuyer and Property Renter (Parent Task): 
-1.       User Registration and Authentication (Parent task for the whole application):
--          Implement user registration and login functionality.
-2.       Property Search and Filtering (Child task for listing creation/display): 
--          Develop search functionality allowing users to search for properties based on criteria (location, price range, bedrooms, amenities).
--          Implement advanced filters for efficient property selection.
-3.       Property Listings Display (parent task):
+
+1. User Registration and Authentication (Parent task for the whole application):
+- Implement user registration and login functionality.
+2.Property Search and Filtering (Child task for listing creation/display): 
+- Develop search functionality allowing users to search for properties based on criteria (location, price range, bedrooms, amenities).
+- Implement advanced filters for efficient property selection.
+3.Property Listings Display (parent task):
 -          Create a user-friendly interface to display property listings.
 -          Include property details, images, and descriptions.
 -          Enable users to view property locations on a map.
