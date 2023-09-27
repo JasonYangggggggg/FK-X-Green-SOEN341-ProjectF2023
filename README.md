@@ -66,28 +66,5 @@ Detail log of each member's contribution: Sprint 1 contribution: Zhuohong Yang d
 
 Task break-down
 
-Zhuohong Yang & Assane - > For Homebuyer and Property Renter (Parent Task): 
-
-1) User Registration and Authentication (Parent task for the whole application):
--Implement user registration and login functionality.
-2)Property Search and Filtering (Child task for listing creation/display): 
--Develop search functionality allowing users to search for properties based on criteria (location, price range, bedrooms, amenities).
-- Implement advanced filters for efficient property selection.
-3.Property Listings Display (parent task):
--          Create a user-friendly interface to display property listings.
--          Include property details, images, and descriptions.
--          Enable users to view property locations on a map.
-4.       Save Favorites (child task for listing creation/display):
--          Implement the ability for users to save their favorite property listings.
--          Develop a comparison feature for saved listings.
-5.       Property Viewing Requests (child class for listing creation/display):
--          Add a feature for users to request property viewings through the system.
--          Implement notifications for viewing requests and confirmations.
-6.       Contact Property Owners/Managers (child class for listing creation/display):
--          Allow users to contact property owners or managers through the platform.
--          Implement messaging or contact forms.
-
-Mann Patel & Alimurat Dinchdonmez & Alex Tong  -> For Broker:
-
 
 
