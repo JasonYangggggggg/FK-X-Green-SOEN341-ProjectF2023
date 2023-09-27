@@ -89,32 +89,5 @@ Zhuohong Yang & Assane - > For Homebuyer and Property Renter (Parent Task):
 
 Mann Patel & Alimurat Dinchdonmez & Alex Tong  -> For Broker:
 
-1. Broker Authentication and Profile Management:
-- Develop secure login functionality for brokers.
--          Create broker profiles with detailed information.
--          Implement profile updates and password change features.
-2.       Property Offer Submission:
--          Develop a feature for brokers to submit property purchase offers.
--          Include fields for pricing and property details.
--          Ensure secure data transmission.
-3.       Offer Management:
--          Create a dashboard for brokers to view submitted offers.
--          Display offer statuses (e.g., pending, accepted, rejected).
--          Implement real-time notifications for offer status changes.
-4.       Property Management:
--          Allow brokers to manage property listings.
--          Add, edit, or remove property listings.
--          Implement features for property visits and schedules.
-5.       Client Preferences and Matching:
--          Develop a system for brokers to manage client preferences.
--          Enable brokers to find properties that match client criteria efficiently.
-Together -> For System Administrator:
-1.       Broker Profile CRUD:
--          Implement comprehensive CRUD functionality for managing broker profiles.
--          Include validation for data entry and secure data storage.
-2.       Security and User Access Management:
--          Secure the login page with appropriate security measures.
--          Implement role-based access control (RBAC) for system administrators.
-3.       Administrative Reports:
--          Develop a reporting module for generating administrative reports.
--          Include data related to broker profiles and activities.
+
+
