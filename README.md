@@ -71,27 +71,33 @@ Zhuohong Yang & Assane - > For Homebuyer and Property Renter (Parent Task):
 2) Property Search and Filtering (Child task for listing creation/display): (4)
    
     -Develop search functionality allowing users to search for properties based on criteria (location, price range, bedrooms, amenities).
+   
     -Implement advanced filters for efficient property selection.
   
-3) Property Listings Display (parent task): (3)
+4) Property Listings Display (parent task): (3)
    
     -Create a user-friendly interface to display property listings.
+   
     -Include property details, images, and descriptions.
+   
     -Enable users to view property locations on a map.
    
-4) Save Favorites (child task for listing creation/display): (2)
+5) Save Favorites (child task for listing creation/display): (2)
    
     -Implement the ability for users to save their favorite property listings.
+   
     -Develop a comparison feature for saved listings.
    
-5) Property Viewing Requests (child class for listing creation/display): (4)
+6) Property Viewing Requests (child class for listing creation/display): (4)
    
     -Add a feature for users to request property viewings through the system.
+   
     -Implement notifications for viewing requests and confirmations.
    
-6) Contact Property Owners/Managers (child class for listing creation/display): (3)
+7) Contact Property Owners/Managers (child class for listing creation/display): (3)
    
     -Allow users to contact property owners or managers through the platform.
+   
     -Implement messaging or contact forms.
 
 Mann Patel & Alimurat Dinchdonmez & Alex Tong  -> For Broker:
@@ -99,47 +105,58 @@ Mann Patel & Alimurat Dinchdonmez & Alex Tong  -> For Broker:
 1) Broker Authentication and Profile Management: (3) (parent task)
 
     -Develop secure login functionality for brokers.
+   
     -Create broker profiles with detailed information.
+   
     -Implement profile updates and password change features.
      
-2) Property Offer Submission: (4) (child task for property management)
+3) Property Offer Submission: (4) (child task for property management)
  
     -Develop a feature for brokers to submit property purchase offers.
+   
     -Include fields for pricing and property details.
+   
     -Ensure secure data transmission.
    
-3) Offer Management: (4) (child task for property management)
+4) Offer Management: (4) (child task for property management)
    
     -Create a dashboard for brokers to view submitted offers.
     -Display offer statuses (e.g., pending, accepted, rejected).
+   
     -Implement real-time notifications for offer status changes.
    
-4) Property Management: (3) (parent task)
+5) Property Management: (3) (parent task)
    
     -Allow brokers to manage property listings.
+   
     -Add, edit, or remove property listings.
+   
     -Implement features for property visits and schedules.
    
-5) Client Preferences and Matching: (3) (child task for property management)
+6) Client Preferences and Matching: (3) (child task for property management)
    
     -Develop a system for brokers to manage client preferences.
+   
     -Enable brokers to find properties that match client criteria efficiently.
    
 Together -> For System Administrator:
 
 1)  Broker Profile CRUD: (2)
    
-    a)Implement comprehensive CRUD functionality for managing broker profiles.
-    b)Include validation for data entry and secure data storage.
+    -Implement comprehensive CRUD functionality for managing broker profiles.
     
-2) Security and User Access Management: (4)
+    -Include validation for data entry and secure data storage.
+    
+3) Security and User Access Management: (4)
    
     -Secure the login page with appropriate security measures.
+   
     -Implement role-based access control (RBAC) for system administrators.
    
-3) Administrative Reports: (3)
+5) Administrative Reports: (3)
    
     -Develop a reporting module for generating administrative reports.
+   
     -Include data related to broker profiles and activities.
 
 
