@@ -74,7 +74,7 @@ Zhuohong Yang & Assane - > For Homebuyer and Property Renter (Parent Task):
 2) Property Search and Filtering (Child task for listing creation/display): (4)
 -          Develop search functionality allowing users to search for properties based on criteria (location, price range, bedrooms, amenities).
 -          Implement advanced filters for efficient property selection.
-3.       Property Listings Display (parent task): (3)
+3) Property Listings Display (parent task): (3)
 -          Create a user-friendly interface to display property listings.
 -          Include property details, images, and descriptions.
 -          Enable users to view property locations on a map.
