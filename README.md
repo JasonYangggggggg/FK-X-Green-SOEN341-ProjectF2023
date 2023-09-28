@@ -123,105 +123,104 @@ Sprint 1 contribution: Zhuohong Yang - Project Approach and Technology.
 Assane - task breakdown, plan for next sprint. 
 Alimurat & mann - user story. 
 
-Task break-down
+## Task breakdown
 
 We’re going to classify the tasks from a range of 1 to 5 determining the amount of effort that it required. With 5 as tasks that takes more effort and time
 
 Zhuohong Yang & Assane - > For Homebuyer and Property Renter (Parent Task): 
 
-1) User Registration and Authentication (Parent task for the whole application): (3)      
+1. User Registration and Authentication (Parent task for the whole application): (3)      
    
-    -Implement user registration and login functionality.
+    - [ ] Implement user registration and login functionality.
 
-2) Property Search and Filtering (Child task for listing creation/display): (4)
+2. Property Search and Filtering (Child task for listing creation/display): (4)
    
-    -Develop search functionality allowing users to search for properties based on criteria (location, price range, bedrooms, amenities).
+    - [ ] Develop search functionality allowing users to search for properties based on criteria (location, price range, bedrooms, amenities).
    
-    -Implement advanced filters for efficient property selection.
+    - [ ] Implement advanced filters for efficient property selection.
   
-4) Property Listings Display (parent task): (3)
+3. Property Listings Display (parent task): (3)
    
-    -Create a user-friendly interface to display property listings.
+    - [ ] Create a user-friendly interface to display property listings.
    
-    -Include property details, images, and descriptions.
+    - [ ] Include property details, images, and descriptions.
    
-    -Enable users to view property locations on a map.
+    - [ ] Enable users to view property locations on a map.
    
-5) Save Favorites (child task for listing creation/display): (2)
+4. Save Favorites (child task for listing creation/display): (2)
    
-    -Implement the ability for users to save their favorite property listings.
+    - [ ] Implement the ability for users to save their favorite property listings.
    
-    -Develop a comparison feature for saved listings.
+    - [ ] Develop a comparison feature for saved listings.
    
-6) Property Viewing Requests (child class for listing creation/display): (4)
+5. Property Viewing Requests (child class for listing creation/display): (4)
    
-    -Add a feature for users to request property viewings through the system.
+    - [ ] Add a feature for users to request property viewings through the system.
    
-    -Implement notifications for viewing requests and confirmations.
+    - [ ] Implement notifications for viewing requests and confirmations.
    
-7) Contact Property Owners/Managers (child class for listing creation/display): (3)
+6. Contact Property Owners/Managers (child class for listing creation/display): (3)
    
-    -Allow users to contact property owners or managers through the platform.
+    - [ ] Allow users to contact property owners or managers through the platform.
    
-    -Implement messaging or contact forms.
+    - [ ] Implement messaging or contact forms.
 
 Mann Patel & Alimurat Dinchdonmez & Alex Tong  -> For Broker:
 
-1) Broker Authentication and Profile Management: (3) (parent task)
+1. Broker Authentication and Profile Management: (3) (parent task)
 
-    -Develop secure login functionality for brokers.
+    - [ ] Develop secure login functionality for brokers.
    
-    -Create broker profiles with detailed information.
+    - [ ] Create broker profiles with detailed information.
    
-    -Implement profile updates and password change features.
+    - [ ] Implement profile updates and password change features.
      
-3) Property Offer Submission: (4) (child task for property management)
+2. Property Offer Submission: (4) (child task for property management)
  
-    -Develop a feature for brokers to submit property purchase offers.
+    - [ ] Develop a feature for brokers to submit property purchase offers.
    
-    -Include fields for pricing and property details.
+    - [ ] Include fields for pricing and property details.
    
-    -Ensure secure data transmission.
+    - [ ] Ensure secure data transmission.
    
-4) Offer Management: (4) (child task for property management)
+3. Offer Management: (4) (child task for property management)
    
-    -Create a dashboard for brokers to view submitted offers.
-    -Display offer statuses (e.g., pending, accepted, rejected).
+    - [ ] Create a dashboard for brokers to view submitted offers.
+      
+    - [ ] Display offer statuses (e.g., pending, accepted, rejected).
    
-    -Implement real-time notifications for offer status changes.
+    - [ ] Implement real-time notifications for offer status changes.
    
-5) Property Management: (3) (parent task)
+4. Property Management: (3) (parent task)
    
-    -Allow brokers to manage property listings.
+    - [ ] Allow brokers to manage property listings.
    
-    -Add, edit, or remove property listings.
+    - [ ] Add, edit, or remove property listings.
    
-    -Implement features for property visits and schedules.
+    - [ ] Implement features for property visits and schedules.
    
-6) Client Preferences and Matching: (3) (child task for property management)
+5. Client Preferences and Matching: (3) (child task for property management)
    
-    -Develop a system for brokers to manage client preferences.
+    - [ ] Develop a system for brokers to manage client preferences.
    
-    -Enable brokers to find properties that match client criteria efficiently.
+    - [ ] Enable brokers to find properties that match client criteria efficiently.
    
 Together -> For System Administrator:
 
-1)  Broker Profile CRUD: (2)
+1.  Broker Profile CRUD: (2)
    
-    -Implement comprehensive CRUD functionality for managing broker profiles.
+    - [ ] Implement comprehensive CRUD functionality for managing broker profiles.
     
-    -Include validation for data entry and secure data storage.
+    - [ ] Include validation for data entry and secure data storage.
     
-3) Security and User Access Management: (4)
+2. Security and User Access Management: (4)
    
-    -Secure the login page with appropriate security measures.
+    - [ ] Secure the login page with appropriate security measures.
    
-    -Implement role-based access control (RBAC) for system administrators.
+    - [ ] Implement role-based access control (RBAC) for system administrators.
    
-5) Administrative Reports: (3)
+3. Administrative Reports: (3)
    
-    -Develop a reporting module for generating administrative reports.
+    - [ ] Develop a reporting module for generating administrative reports.
    
-    -Include data related to broker profiles and activities.
-
-
+    - [ ] Include data related to broker profiles and activities.
