@@ -8,6 +8,7 @@ Roles:
 
 Description of the project:
 
+This project consists of a real estate web application. A real estate web application streamlines the buying, selling, and renting of properties, catering to four primary users: homebuyers, property renters, system administrators, and brokers. Homebuyers search for properties by price range, room size, and other criteria, while property renters seek rental accommodations. The system administrator manages brokers, who can add or remove them and manage their own listings.
 
 Project Approach and Technology: For this Full stack web development project, we are planning to use NextJs to help us achieve the end goal. We are going to use Mongodb as our database and Tailwind CSS (bootstrap) to help us feature the website so we don't have to deal with custome CSS at all. We will also use bcrypt to secure our data password (hashing password), we will create two types of account, one is for normal users and the other one is for brokers. (But this can be change as well since we want to let users to post the property on our website as well)
 
