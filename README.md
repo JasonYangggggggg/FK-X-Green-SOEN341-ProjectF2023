@@ -62,66 +62,61 @@ User stories:
   4. System Administrator: As a System Administrator, I need a comprehensive CRUD (Create, Read, Update, Delete) functionality for managing broker profiles efficiently.Therefore, to ensure accurate data entry,  secure the login page, view and change broker data, inactive marking of brokers and deletion of broker profiles all should be included with careful validation. Furthermore, I need to be able to generate administrative reports, maintain data integrity, search, filter, and track changes to broker profiles. 
 
 
-Meeting Minutes: 
-
-Meeting minute 1	19/09/2023  5:00pm
-
-Attendees: Jason, Assane, Mann, Alimurat
-
--Objectives clarification
-
--tools that we’re gonna use
-
--Team member roles distribution
-
--Decided work scope
-
--Separate tasks for sprint 1
-
--Meeting Next tuesday
-
-Meeting minute 2	20/09/2023  5:00pm
-
-Attendees: Jason, Assane, Mann, Alimurat
-
--Verification of the advancement of the tasks
-
--clarification made about roles
-
-Meeting minute 3	21/09/2023  4:15pm
-
-Attendees: Jason, Assane, Mann, Alimurat, Alex
-
--Verifying the components of the sprint 1 evaluations 
-
--Organize the future details of the projects 
-
--Formatting previous tasks done
-
--Tasks distribution to each member assigned according to the Task Breakdown
-
-Meeting minute 4	27/09/2023  6:00pm
-
-Attendees: Assane, Mann, Alimurat, Alex
-
--Completion of missing elements for the submission
-
--effort estimation for the tasks
-
--sprint 2 Previsualisation
 
 
+<details>
+<summary><h2>Meeting Minutes</h2></summary> 
 
+| Meeting minute 1  19/09/2023  5:00pm |
+|:---|
+| Attendees: Jason, Assane, Mann, Alimurat |
+| Objectives clarification |
+| Tools that we’re gonna use |
+| Team member roles distribution |
+| Decided work scope |
+| Divided tasks for sprint 1 |
+| Meeting Next tuesday |
+
+| Meeting minute 2  20/09/2023  5:00pm |
+|:---|
+| Attendees: Jason, Assane, Mann, Alimurat |
+| Verification of the advancement of the tasks |
+| Clarification made about roles |
+
+| Meeting minute 3  21/09/2023  4:15pm |
+|:---|
+| Attendees: Jason, Assane, Mann, Alimurat, Alex |
+| Verifying the components of the sprint 1 <br> evaluations | 
+| Organize the future details of the projects |
+| Formatting previous tasks done |
+| Tasks distribution to each member assigned <br> according to the Task Breakdown |
+
+| Meeting minute 4  27/09/2023  6:00pm |
+|:---|
+| Attendees: Assane, Mann, Alimurat, Alex |
+| Completion of missing elements for the <br> submission |
+| Effort estimation for the tasks |
+| Sprint 2 Previsualisation |
+
+| Meeting minute 5  XX/XX/20XX  X:XXpm |
+|:---|
+| Attendees: <!-- Attendees --> |
+| <!-- Task --> |
+| <!-- Task --> |
+| <!-- Task --> |
+</details>
  
-Plan for next sprint: 
+## Plan for next sprint: 
 
-We are expected to have the login and register model ready, and It should be connected to the backend database (Mongodb). We are also expected to have some Front-end features done. By next week before October, we are expected to have the login and register functionality working. By October 10th, we are expected to have some Main page front-end features done like listing creation. The rest of the time we are not sure yet, we need to see how the project goes.
+We are expected to have the login and register model ready and connected to the backend database (MongoDB). We are also expected to have some frontend features complete. By next week before October, we are expected to have the login and register functionality working. By October 10th, we are expected to have some main page frontend features done e.g.: listing creation. The rest of the time we are not sure yet, we need to see how the project goes.
 
-Detail log of each member's contribution: 
+## Detail log of each member's contribution: 
 
-Sprint 1 contribution: Zhuohong Yang - Project Approach and Technology. 
-Assane - task breakdown, plan for next sprint. 
-Alimurat & mann - user story. 
+Sprint 1 contribution:  
+Zhuohong Yang - Project approach and technology.  
+Assane - Task breakdown, plan for next sprint.  
+Alimurat & Mann - User story.  
+Alex Tong - Project approach and technnology, github formatting.
 
 ## Task breakdown
 
