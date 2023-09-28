@@ -1,7 +1,7 @@
 # Real_Estate_Project
 
 | Team members | Student ID | Roles |
-|:-------------|----------| --- |
+|:-------------|----------| :--- |
 | Zhuohong Yang | 40125950 | Full stack development, Broker’s Ability, Computer Engineer |
 | Alimurat Dinchdonmez | 40245310 | Full stack development, Client Support,  Software Engineer |
 | Assane Dieng | 40164595 | Front end development, Design, Computer Engineer |
@@ -49,57 +49,3 @@ As a modular framework built upon the React library, Next.js is capable of facil
 <img src="https://github.com/JasonYangggggggg/Real_Estate_Project/assets/109561939/47c79811-26e9-43c7-b72d-4708858022cc" width=25% height=25%>
 <img src="https://github.com/JasonYangggggggg/Real_Estate_Project/assets/109561939/10bf7a41-4815-41fd-9c4a-ba71e198a6d9" width=25% height=25%>
 <img src="https://github.com/JasonYangggggggg/Real_Estate_Project/assets/109561939/60a8d2c9-7f1c-4ba3-91f4-30234d2ab367" width=25% height=25%>
-<details>
-  
-<summary><h2>Meeting Minutes</h2></summary> 
-
-| Meeting minute 1  19/09/2023  5:00pm |
-|:---|
-| Attendees: Jason, Assane, Mann, Alimurat |
-| Objectives clarification |
-| Tools that we’re gonna use |
-| Team member roles distribution |
-| Decided work scope |
-| Divided tasks for sprint 1 |
-| Meeting Next tuesday |
-
-| Meeting minute 2  20/09/2023  5:00pm |
-|:---|
-| Attendees: Jason, Assane, Mann, Alimurat |
-| Verification of the advancement of the tasks |
-| Clarification made about roles |
-
-| Meeting minute 3  21/09/2023  4:15pm |
-|:---|
-| Attendees: Jason, Assane, Mann, Alimurat, Alex |
-| Verifying the components of the sprint 1 <br> evaluations | 
-| Organize the future details of the projects |
-| Formatting previous tasks done |
-| Tasks distribution to each member assigned <br> according to the Task Breakdown |
-
-| Meeting minute 4  27/09/2023  6:00pm |
-|:---|
-| Attendees: Assane, Mann, Alimurat, Alex |
-| Completion of missing elements for the <br> submission |
-| Effort estimation for the tasks |
-| Sprint 2 Previsualisation |
-
-| Meeting minute 5  XX/XX/20XX  X:XXpm |
-|:---|
-| Attendees: <!-- Attendees --> |
-| <!-- Task --> |
-| <!-- Task --> |
-| <!-- Task --> |
-</details>
- 
-## Plan for next sprint: 
-
-We are expected to have the login and register model ready and connected to the backend database (MongoDB). We are also expected to have some frontend features complete. By next week before October, we are expected to have the login and register functionality working. By October 10th, we are expected to have some main page frontend features done e.g.: listing creation. The rest of the time we are not sure yet, we need to see how the project goes.
-
-## Detail log of each member's contribution: 
-
-Sprint 1 contribution:  
-Zhuohong Yang - Project approach and technology.  
-Assane - Task breakdown, plan for next sprint.  
-Alimurat & Mann - User story.  
-Alex Tong - Project approach and technnology, github formatting.
