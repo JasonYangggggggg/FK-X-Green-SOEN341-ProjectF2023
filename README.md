@@ -27,42 +27,63 @@ User stories:
 Meeting Minutes: 
 
 Meeting minute 1	19/09/2023  5:00pm
+
 Attendees: Jason, Assane, Mann, Alimurat
 
-Objectives clarification
-tools that we’re gonna use
-Team member roles distribution
-Decided work scope
-Separate tasks for sprint 1
-Meeting Next tuesday
+-Objectives clarification
+
+-tools that we’re gonna use
+
+-Team member roles distribution
+
+-Decided work scope
+
+-Separate tasks for sprint 1
+
+-Meeting Next tuesday
 
 Meeting minute 2	20/09/2023  5:00pm
+
 Attendees: Jason, Assane, Mann, Alimurat
 
-Verification of the advancement of the tasks
-clarification made about roles
+-Verification of the advancement of the tasks
+
+-clarification made about roles
 
 Meeting minute 3	21/09/2023  4:15pm
+
 Attendees: Jason, Assane, Mann, Alimurat, Alex
 
-Verifying the components of the sprint 1 evaluations
-Organize the future details of the projects 
-Formatting previous tasks done
-Tasks distribution to each member assigned according to the Task Breakdown
+-Verifying the components of the sprint 1 evaluations 
+
+-Organize the future details of the projects 
+
+-Formatting previous tasks done
+
+-Tasks distribution to each member assigned according to the Task Breakdown
 
 Meeting minute 4	27/09/2023  6:00pm
+
 Attendees: Assane, Mann, Alimurat, Alex
 
-Completion of missing elements for the submission
-effort estimation for the tasks
-sprint 2 Previsualisation
+-Completion of missing elements for the submission
+
+-effort estimation for the tasks
+
+-sprint 2 Previsualisation
 
 
 
  
-Plan for next sprint: We are expected to have the login and register model ready, and It should be connected to the backend database (Mongodb). We are also expected to have some Front-end features done. By next week before October, we are expected to have the login and register functionality working. By October 10th, we are expected to have some Main page front-end features done like listing creation. The rest of the time we are not sure yet, we need to see how the project goes.
+Plan for next sprint: 
 
-Detail log of each member's contribution: Sprint 1 contribution: Zhuohong Yang done Task breakdown, Project Approach and Technology. Assane done task breakdown, plan for next sprint. Alimurat & mann done user story. 
+We are expected to have the login and register model ready, and It should be connected to the backend database (Mongodb). We are also expected to have some Front-end features done. By next week before October, we are expected to have the login and register functionality working. By October 10th, we are expected to have some Main page front-end features done like listing creation. The rest of the time we are not sure yet, we need to see how the project goes.
+
+Detail log of each member's contribution: 
+
+Sprint 1 contribution: Zhuohong Yang - Project Approach and Technology. 
+Assane - task breakdown, plan for next sprint. 
+Alimurat & mann - user story. 
 
 Task break-down
 
