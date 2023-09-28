@@ -6,6 +6,13 @@ Team members: Zhuohong Yang - 40125950, Alimurat Dinchdonmez - 40245310, Assane 
 
 Roles:
 
+Zhuohong Yang: Full stack development, broker’s ability, Computer Engineer
+Assane Dieng: Front end development. Design, Computer Engineer
+Alimurat Dinchdonmez: Full stack development,clients support ,  Software Engineer
+Mann Patel:
+Alex Tong: Front end development. Inclusive design, Software Engineer
+
+
 Description of the project:
 
 This project consists of a real estate web application. A real estate web application streamlines the buying, selling, and renting of properties, catering to four primary users: homebuyers, property renters, system administrators, and brokers. Homebuyers search for properties by price range, room size, and other criteria, while property renters seek rental accommodations. The system administrator manages brokers, who can add or remove them and manage their own listings.
