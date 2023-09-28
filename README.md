@@ -7,9 +7,13 @@ Team members: Zhuohong Yang - 40125950, Alimurat Dinchdonmez - 40245310, Assane 
 Roles:
 
 Zhuohong Yang: Full stack development, broker’s ability, Computer Engineer
+
 Assane Dieng: Front end development. Design, Computer Engineer
+
 Alimurat Dinchdonmez: Full stack development,clients support ,  Software Engineer
-Mann Patel:
+
+Mann Patel:Full stack development, Computer Engineer
+
 Alex Tong: Front end development. Inclusive design, Software Engineer
 
 
