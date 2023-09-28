@@ -2,7 +2,12 @@
 
 Tech that we are going to use: React, Next.js, Typescript, Mongodb, PrismaDB, Tailwind CSS
 
-Team members: Zhuohong Yang - 40125950, Alimurat Dinchdonmez - 40245310, Assane Dieng - 40164595, Mann Patel - 40187056. 
+Team members: Zhuohong Yang - 40125950, Alimurat Dinchdonmez - 40245310, Assane Dieng - 40164595, Mann Patel - 40187056.
+
+Roles:
+
+Description of the project:
+
 
 Project Approach and Technology: For this Full stack web development project, we are planning to use NextJs to help us achieve the end goal. We are going to use Mongodb as our database and Tailwind CSS (bootstrap) to help us feature the website so we don't have to deal with custome CSS at all. We will also use bcrypt to secure our data password (hashing password), we will create two types of account, one is for normal users and the other one is for brokers. (But this can be change as well since we want to let users to post the property on our website as well)
 
