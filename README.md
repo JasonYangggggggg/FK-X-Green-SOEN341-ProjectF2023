@@ -24,8 +24,9 @@ User stories:
   4. System Administrator: As a System Administrator, I need a comprehensive CRUD (Create, Read, Update, Delete) functionality for managing broker profiles efficiently.Therefore, to ensure accurate data entry,  secure the login page, view and change broker data, inactive marking of brokers and deletion of broker profiles all should be included with careful validation. Furthermore, I need to be able to generate administrative reports, maintain data integrity, search, filter, and track changes to broker profiles. 
 
 
-  Meeting Minutes: Meeting minute 1	19/09/2023  5:00pm
+Meeting Minutes: 
 
+Meeting minute 1	19/09/2023  5:00pm
 Attendees: Jason, Assane, Mann, Alimurat
 
 Objectives clarification
@@ -33,24 +34,29 @@ tools that we’re gonna use
 Team member roles distribution
 Decided work scope
 Separate tasks for sprint 1
-Meeting Next tuesday(?)
+Meeting Next tuesday
 
 Meeting minute 2	20/09/2023  5:00pm
-
 Attendees: Jason, Assane, Mann, Alimurat
 
 Verification of the advancement of the tasks
 clarification made about roles
 
 Meeting minute 3	21/09/2023  4:15pm
-
-
 Attendees: Jason, Assane, Mann, Alimurat, Alex
 
 Verifying the components of the sprint 1 evaluations
 Organize the future details of the projects 
 Formatting previous tasks done
 Tasks distribution to each member assigned according to the Task Breakdown
+
+Meeting minute 4	27/09/2023  6:00pm
+Attendees: Assane, Mann, Alimurat, Alex
+
+Completion of missing elements for the submission
+effort estimation for the tasks
+sprint 2 Previsualisation
+
 
 
  
