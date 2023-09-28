@@ -51,7 +51,7 @@ As a modular framework built upon the React library, Next.js is capable of facil
 <img src="https://github.com/JasonYangggggggg/Real_Estate_Project/assets/109561939/10bf7a41-4815-41fd-9c4a-ba71e198a6d9" width=25% height=25%>
 <img src="https://github.com/JasonYangggggggg/Real_Estate_Project/assets/109561939/60a8d2c9-7f1c-4ba3-91f4-30234d2ab367" width=25% height=25%>
   
-User stories: 
+## User stories: 
   1. Homebuyer: As a homebuyer, I want to efficiently search for properties based on specific criteria, such as location, price range, number of bedrooms, and amenities. Additionally, I want the ability to save my favorite listings for future reference and comparison. To enhance my property search experience, I would like to view property locations on a map, making it easier to assess their proximity to important landmarks and neighborhoods. Lastly, I need the convenience of requesting property viewings through the system.
 
   2. Property Renter: As a property renter, I need a user-friendly platform that allows me to search for rental properties efficiently. I want to be able to specify my rental criteria, such as location, rental price range, number of bedrooms, and amenities, in order to find suitable rental options. Additionally, I need the ability to save rental listings I'm interested in a list of favorites for easy reference and comparison. To make informed decisions about potential rental properties, I would also like to see the location of each property on a map, helping me understand their proximity to important amenities and areas of interest. Lastly, I need the convenience of contacting property owners or managers through the system to inquire about rental details or schedule property viewings.
