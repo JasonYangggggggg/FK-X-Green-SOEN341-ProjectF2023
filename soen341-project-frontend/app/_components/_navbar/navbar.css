@@ -1,0 +1,30 @@
+.nav-bar{
+    display: flex;
+    background-color: #f7f7f7;
+    height: 25px;
+    padding: 25px;
+    color: black;
+    justify-content: right;
+    align-items: center;
+  }
+
+  .loginBtn{
+    width: auto;
+    background-color: #f7f7f7;
+    color: black;
+    border: none;
+  }
+
+  .loginBtn:hover{
+    background-color: black;
+    color: #f7f7f7;
+  }
+
+  .registerBtn{
+    width: auto;
+  }
+
+  .loginBtn:hover{
+    background-color: #f7f7f7;
+    color: black;
+  }

@@ -1,0 +1,29 @@
+h1{
+    font-size: xxx-large;
+}
+
+p{
+    font-size: larger;
+}
+
+.main-ladning{
+    justify-content: center;
+    text-align: center;
+    padding-top: 10%;
+    font-family: sans-serif;
+    background-image: url("./landing.jpg");
+    height: 800px;
+    background-size: contain;
+    background-size: cover;
+    overflow: hidden;
+    background-position: center;
+    color: #f7f7f7;
+}
+
+.search-div{
+    height: 15%;
+    background-color: #f7f7f7;
+    border-radius: 15px;
+    margin: 25px;
+    display: flex;    
+}
