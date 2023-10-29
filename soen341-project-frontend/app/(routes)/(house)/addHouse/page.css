@@ -1,0 +1,20 @@
+.container-form{
+    height: 800px;
+    width: 100%;
+    justify-content: center;
+    display: grid;
+    place-items: center;
+    background-image: url("../../../\(root\)/landing.jpg");
+    background-size: contain;
+    background-size: cover;
+    overflow: hidden;
+    background-position: center;
+}
+.formAdd{
+    text-align: center;
+    justify-content: center;
+    width: 800px;
+    background-color: #f7f7f7;
+    padding: 50px;
+
+}
