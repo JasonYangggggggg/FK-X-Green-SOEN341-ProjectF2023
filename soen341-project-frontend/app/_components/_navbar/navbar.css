@@ -10,7 +10,7 @@
 
   .loginBtn{
     width: auto;
-    background-color: #f7f7f7;
+    background-color: #eb3131;
     color: black;
     border: none;
   }
@@ -25,6 +25,6 @@
   }
 
   .loginBtn:hover{
-    background-color: #f7f7f7;
+    background-color: #f74343;
     color: black;
   }

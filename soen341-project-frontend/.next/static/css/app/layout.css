@@ -1,0 +1,78 @@
+/*!********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[3]!./app/_components/_navbar/navbar.css ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************/
+.nav-bar{
+    display: flex;
+    background-color: #f7f7f7;
+    height: 25px;
+    padding: 25px;
+    color: black;
+    justify-content: right;
+    align-items: center;
+  }
+
+  .loginBtn{
+    width: auto;
+    background-color: #eb3131;
+    color: black;
+    border: none;
+  }
+
+  .loginBtn:hover{
+    background-color: black;
+    color: #f7f7f7;
+  }
+
+  .registerBtn{
+    width: auto;
+  }
+
+  .loginBtn:hover{
+    background-color: #f74343;
+    color: black;
+  }
+/*!*************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[3]!./app/globals.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************/
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body{
+  margin: 0px;
+}
+
+*{
+  text-decoration: none;
+
+}
+a:link
+{
+   color: white;
+   text-decoration: none;
+}
+a:visited
+{
+   color: white;
+   text-decoration: none;
+}
+a:hover
+{
+   color: white;
+   text-decoration: none;
+}
+a:active
+{
+   color: white;
+   text-decoration: none;
+}

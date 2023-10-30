@@ -7,8 +7,8 @@ const Navbar = () => {
    
     return (
         <div className="nav-bar">
-            <button className="loginBtn">Login</button>
-            <button className="registerBtn">Register</button>
+            <button className="loginBtn"><Link href = "/login">Login</Link></button>
+            <button className="registerBtn"><Link href = "/register">Register</Link></button>
             <button className="addBtn" ><Link href="/addHouse">Add House</Link></button>
         </div>
     )

@@ -1,0 +1,123 @@
+/*!***************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[3]!./app/(routes)/(auth)/register/register.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat',sans-serif;
+  }
+  
+  .SignIn-SignUp-Page{
+    /*background-color: #f5b0a0;
+    background: linear-gradient(to right,#fc9b9b,#f3d6ba);*/
+    background-image: url(/_next/static/media/housesBackgroundSign.27f723cf.webp);
+    background-size: contain;
+    background-size: cover;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+    height: 100vh;
+  
+  }
+  
+  .container{
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: 0 5px 15 px rgba(0,0,0,0.35);
+    position: relative;
+    overflow: hidden;
+    width:768px;
+    max-width: 100%;
+    min-height: 480px;
+  }
+  .container p{
+    font-size:14px;
+    line-height: 20px;
+    letter-spacing: 0.3px;
+    margin:20px 0;
+  }
+  
+  .container button{
+    background-color: #e2360f;
+    color: white;
+    font-size: 12px;
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    font-weight: 600;
+    letter-spacing:0.5px;
+    text-transform: uppercase;
+    margin-top:10px;
+    cursor:pointer;
+    width: 120px;
+  }
+  
+  .container form{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 40px;
+    height: 100%;
+    
+  }
+
+  .container input{
+    background-color: #eee;
+    border: none;
+    margin: 8px 0;
+    padding: 10px 15px;
+    font-size: 13px;
+    border-radius: 8px;
+    width: 100%;
+    outline: none;
+  }
+
+  .form-container{
+    position: absolute;
+    top:0;
+    height: 100%;
+    left:50%;
+    
+    
+  }
+  .right-container{
+    position:absolute;
+    top:0;
+    right:50%;
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    transition: all 0.6s ease-in-out;
+    border-radius: 0 150px 100px 0;
+    z-index:1000;
+  }
+  .right{
+    background-color: #ea6e34;
+    background: linear-gradient(to left,#f5ab98,#f13e22);
+    color: #fff;
+    position: relative;
+    height: 100%;
+    width: 200%;
+    transform: translateX(0);
+    transition:all 0.6s ease-in-out;
+  
+  }
+
+  .right-panel{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 30px;
+    text-align: center;
+    top:0;
+    transform: translateX(0);
+    transition: all 0.6s ease-in-out;
+  }
