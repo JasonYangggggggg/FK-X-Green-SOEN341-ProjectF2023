@@ -42,6 +42,9 @@ export default function Listing() {
                   <br />
                   Image: {House?.Image}
                   <br />
+                  <button>Request visit</button>
+                  <br />
+                  <br />
                 </li>
               );
             })}

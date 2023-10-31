@@ -1,7 +1,5 @@
 {
-  "/(root)/page": "app/(root)/page.js",
-  "/(routes)/(house)/addHouse/page": "app/(routes)/(house)/addHouse/page.js",
+  "/(routes)/(auth)/register/page": "app/(routes)/(auth)/register/page.js",
   "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/(routes)/(auth)/login/page": "app/(routes)/(auth)/login/page.js",
-  "/(routes)/(auth)/register/page": "app/(routes)/(auth)/register/page.js"
+  "/(root)/page": "app/(root)/page.js"
 }
