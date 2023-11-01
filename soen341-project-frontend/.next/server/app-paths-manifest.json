@@ -1,5 +1,4 @@
 {
-  "/(routes)/(auth)/register/page": "app/(routes)/(auth)/register/page.js",
   "/favicon.ico/route": "app/favicon.ico/route.js",
   "/(root)/page": "app/(root)/page.js"
 }

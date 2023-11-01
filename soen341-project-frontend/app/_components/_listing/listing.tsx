@@ -2,9 +2,12 @@
 import React, { useState, useEffect } from "react";
 import "./listing.css";
 import axios from "axios";
+import Input from "../_input/input";
+import Button from '../_button/button';
 
 export default function Listing() {
   const [Houses, setHouses] = useState([]);
+  const [query,setQuery] = useState("");
 
   //onMount
   useEffect(() => {
@@ -26,14 +29,28 @@ export default function Listing() {
 
   return (
     <div>
+      <div className="search-div">
+     
+     
+     
+       
+     
+       
+    
+     <input type = "text" placeholder="Search..." className = "search" onChange = {e => setQuery(e.target.value)}/>
+     <Input label="Type" type="select" handler={()=>{}}/>
+       <Input label="City" type="text" handler={()=>{}}/>
+       <Input label="Price" type="select" handler={()=>{}}/>
+       <Button label="Search" handler={()=>{}}/>
+       </div>
       <article>
         <br />
 
         {Houses?.length ? (
-          <ul>
-            {Houses.map((House: any, i) => {
+          <ul className="listing">
+            {Houses.filter((House:any,i) => House.Type.toLowerCase().includes(query) || House.City.toLowerCase().includes(query)).map((House: any, i) => {
               return (
-                <li key={i}>
+                <li className = "listingElement" key={i}>
                   Type: {House?.Type}
                   <br />
                   City: {House?.City}
@@ -42,7 +59,7 @@ export default function Listing() {
                   <br />
                   Image: {House?.Image}
                   <br />
-                  <button>Request visit</button>
+                  <button className = "requestBtn">Request visit</button>
                   <br />
                   <br />
                 </li>
