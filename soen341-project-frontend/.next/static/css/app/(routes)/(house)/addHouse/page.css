@@ -1,0 +1,86 @@
+/*!******************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[3]!./app/_components/_input/input.css ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************/
+input{
+    height: 30px;
+    margin: 5px 30px;
+    border-radius: 5px;
+    border: solid 1px black;
+    width: 35%;
+    padding: 10px;
+}
+
+select {
+    height: 50px;
+    margin: 30px;
+    border-radius: 5px;
+    border: solid 1px black;
+    width: 15%;
+    padding: 10px;
+}
+
+.hideFile{
+    display: none;
+}
+
+
+/*!********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[3]!./app/_components/_button/button.css ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************/
+button{
+    height: 50px;
+    margin: 30px;
+    border-radius: 5px;
+    border: solid 1px red;
+    width: 15%;
+    padding: 10px;
+    background-color: red;
+    color: #f7f7f7;
+    font-weight: bold;
+}
+/*!************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[3]!./app/(routes)/(house)/addHouse/page.css ***!
+  \************************************************************************************************************************************************************************************************************************************************************************************/
+.container-form{
+    height: 800px;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    place-items: center;
+    background-image: url(/_next/static/media/addHouseImage.7a022043.jpeg);
+    background-size: contain;
+    background-size: cover;
+    overflow: hidden;
+    background-position: center;
+    
+}
+.formAdd{
+    text-align: center;
+    justify-content: center;
+    width: 600px;
+    background: linear-gradient(to right,#f0e6d8,#fbd0a4) ;
+    padding: 30px;
+    border-radius: 40px;
+    
+}
+.form{
+    border: solid;
+    border-radius: 50px;
+    background-image: linear-gradient(to right,#f7f7f7,#f7f7f7f0),url(/_next/static/media/addHouseImage.7a022043.jpeg);
+    background-position: center;
+    border: none;
+    padding:20px 0;
+    width:500px;
+    margin-left: 20px;
+    
+}
+h2{
+    margin:0 0 20px 0;
+    color:#ffffff
+}
+.elements{
+    margin:5px 0;
+    justify-content: center;
+   
+
+}

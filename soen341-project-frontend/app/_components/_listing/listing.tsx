@@ -36,10 +36,12 @@ export default function Listing() {
        
      
        
-    
-     <input type = "text" placeholder="Search..." className = "search" onChange = {e => setQuery(e.target.value)}/>
+    <div>
+     <input type = "text" placeholder="Search..." className = "Search" onChange = {e => setQuery(e.target.value)}/>
+     
+     </div>
      <Input label="Type" type="select" handler={()=>{}}/>
-       <Input label="City" type="text" handler={()=>{}}/>
+       
        <Input label="Price" type="select" handler={()=>{}}/>
        <Button label="Search" handler={()=>{}}/>
        </div>

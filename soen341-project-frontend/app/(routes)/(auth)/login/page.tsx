@@ -6,7 +6,7 @@ import Link from 'next/link';
 const Login = () => {
   return (
     <div>
-    <div className = "SignIn-SignUp-Page">
+    <div className = "SignIn-Page">
     <div className = "container" id = "container">
       
 

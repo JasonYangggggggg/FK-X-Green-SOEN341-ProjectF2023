@@ -7,7 +7,7 @@ import "./register.css";
 const Register = () => {
   return (
     <div>
-    <div className = "SignIn-SignUp-Page">
+    <div className = "SignUp-Page">
     <div className = "container" id = "container">
       <div className = "form-container sign-up">
         <form>

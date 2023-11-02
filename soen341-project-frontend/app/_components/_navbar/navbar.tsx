@@ -7,11 +7,28 @@ const Navbar = () => {
    
     return (
         <div className="nav-bar">
-            <button className="loginBtn"><Link href = "/login">Login</Link></button>
-            <button className="registerBtn"><Link href = "/register">Register</Link></button>
-            <button className="addBtn" ><Link href="/addHouse">Add House</Link></button>
+        <div className="homeContainer">
+          <button className="homeBtn"><Link href="/">Home</Link></button>
         </div>
-    )
-};
-
-export default Navbar;
+        <div className="buttonContainer">
+          <button className="loginBtn">
+            <Link href="/login">Login</Link>
+          </button>
+          <button className="registerBtn">
+            <Link href="/register">Register</Link>
+          </button>
+          <button className="addBtn">
+            <Link href="/addHouse">Add House</Link>
+          </button>
+        </div>
+      </div>
+    );
+  };
+  
+  export default Navbar;
+  
+  
+  
+  
+  
+  

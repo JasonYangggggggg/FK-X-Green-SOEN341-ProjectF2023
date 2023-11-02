@@ -1,35 +1,51 @@
 /*!********************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[3]!./app/_components/_navbar/navbar.css ***!
   \********************************************************************************************************************************************************************************************************************************************************************************/
-.nav-bar{
-    display: flex;
-    background-color: #f7f7f7;
-    height: 25px;
-    padding: 25px;
-    color: black;
-    justify-content: right;
-    align-items: center;
-  }
-
+.nav-bar {
+  display: flex;
+  background-color: #f7f7f7;
+  padding: 20px 0px;
+  color: black;
+  justify-content: space-between; /* Use space-between to create space between buttons */
+  align-items: center;
+}
   .loginBtn{
-    width: auto;
-    background-color: #eb3131;
+    width: 100px;
     color: black;
     border: none;
+    margin: 0px 7px;
+  }
+  .loginBtn:hover{
+    background-color: rgb(246, 137, 4);
+    color: black;
   }
 
-  .loginBtn:hover{
-    background-color: black;
-    color: #f7f7f7;
-  }
+
 
   .registerBtn{
-    width: auto;
+    width:100px;
+    margin: 0px 7px;
+    border: none;
+  }
+  .registerBtn:hover{
+    background-color: rgb(246, 137, 4);
   }
 
-  .loginBtn:hover{
-    background-color: #f74343;
-    color: black;
+  
+  .addBtn{
+    width: 140px ;
+    margin: 0px 7px;
+    border: none;
+  }
+  .addBtn:hover{
+    background-color: rgb(246, 137, 4);
+  }
+
+  
+  .homeBtn{
+    width: 140px ;
+    margin: 0px 20px;
+    
   }
 /*!*************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[3]!./app/globals.css ***!

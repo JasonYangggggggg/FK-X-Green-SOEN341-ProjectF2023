@@ -46,11 +46,23 @@ export default function AddHouse() {
     return (
        <div className="container-form">
             <div className="formAdd">
-                <h2>Add House</h2>
+                <h2>Add a New House</h2>
+                <div className='form'>
+                 <div className = "elements">
+                    
                 <Input label="Type" type='text' handler={typeHandler}/>
+                </div>  
+                <div className = "elements">
                 <Input label="City" type='text' handler={cityHandler}/>
+                </div>
+                <div className = "elements">
                 <Input label="Price" type='text'  handler={priceHandler}/>
+                </div >
+                <div className = "elements">
                 <Input label="Image" type='file'  handler={imageHandler}/>
+               </div>
+                
+                </div>
                 <Button label="Submit" handler={submit}/>
             </div>
        </div> 
