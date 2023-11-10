@@ -1,10 +1,33 @@
 'use client';
-import React from 'react';
+import React, { useState } from 'react';
 import Link from 'next/link';
 import "./register.css";
 
+import axios from 'axios';
 
 const Register = () => {
+
+   const [Name, setName] = useState(null);
+   const [Password, setPassword] = useState(null);
+
+   const nameHandler = (data : any) =>{
+       setName(data.target.value);
+   }
+
+   const passwordHandler = (data : any) =>{
+       setPassword(data.target.value)
+   }
+
+   const signup = async () => {
+      if((Name !== null && Name !== '') && (Password !== null && Password !== '')){
+         const data = {
+            Name,
+            Password
+        }
+        const save = await axios.post('http://localhost:3001/user/signup', data);
+      }
+   }
+
   return (
     <div>
     <div className = "SignUp-Page">
@@ -13,9 +36,9 @@ const Register = () => {
         <form>
           <h1>Create Account</h1>
         
-        <input type = "text" placeholder='Name'/>
-        <input type = "password" placeholder='Password'/>
-        <button>Sign Up</button>
+        <input type = "text" placeholder='Name' onChange={nameHandler} required/>
+        <input type = "password" placeholder='Password' onChange={passwordHandler} required/>
+        <button onClick={signup}>Sign Up</button>
         </form>
       </div>
 
