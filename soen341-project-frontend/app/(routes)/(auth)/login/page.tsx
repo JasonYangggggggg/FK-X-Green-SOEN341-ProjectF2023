@@ -1,9 +1,33 @@
 "use client";
-import React from 'react'
+import React, { useState } from 'react'
 import "./login.css";
 import Link from 'next/link';
 
+import axios from 'axios';
+
 const Login = () => {
+
+   const [Name, setName] = useState(null);
+   const [Password, setPassword] = useState(null);
+
+   const nameHandler = (data : any) =>{
+       setName(data.target.value);
+   }
+
+   const passwordHandler = (data : any) =>{
+       setPassword(data.target.value)
+   }
+
+   const login = async () => {
+      if((Name !== null && Name !== '') && (Password !== null && Password !== '')){
+         const data = {
+            Name,
+            Password
+        }
+        const save = await axios.post('http://localhost:3001/user/login', data);
+      }
+   }
+   
   return (
     <div>
     <div className = "SignIn-Page">
@@ -14,9 +38,9 @@ const Login = () => {
         <form>
           <h1>Sign In</h1>
         
-        <input type = "text" placeholder='Name'/>
-        <input type = "password" placeholder='Password'/>
-        <button>Sign In</button>
+        <input type = "text" placeholder='Name' onChange={nameHandler}/>
+        <input type = "password" placeholder='Password' onChange={passwordHandler}/>
+        <button onClick={login}>Sign In</button>
         </form>
       </div>
       
@@ -43,3 +67,4 @@ const Login = () => {
 }
 
 export default Login
+  
