@@ -2,7 +2,7 @@ const express = require('express');
 const cors = require('cors');
 const mongoose = require('mongoose');
 
-
+const userRouter = require('./routes/user');
 const houseRouter = require('./routes/house');
 
 
@@ -19,6 +19,7 @@ app.use(cors({
     credentials: true
 }));
 
+app.use('/user', userRouter);
 app.use('/house', houseRouter);
 
 app.listen(PORT, ()=>{
