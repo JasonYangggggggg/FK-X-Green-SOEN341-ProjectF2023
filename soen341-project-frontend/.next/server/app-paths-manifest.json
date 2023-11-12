@@ -1,5 +1,7 @@
 {
-  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/(routes)/(auth)/brokersList/page": "app/(routes)/(auth)/brokersList/page.js",
   "/(routes)/(house)/addHouse/page": "app/(routes)/(house)/addHouse/page.js",
-  "/(root)/page": "app/(root)/page.js"
+  "/(root)/page": "app/(root)/page.js",
+  "/(routes)/(auth)/register/page": "app/(routes)/(auth)/register/page.js",
+  "/(routes)/(auth)/brokers/[_id]/page": "app/(routes)/(auth)/brokers/[_id]/page.js"
 }

@@ -30,5 +30,12 @@ router.post('/login', async (req, res) => {
         console.log(e);
     }
 });
+router.get("/get", async (req, res) => {
+    const users = await User.find();
+    if (!users) {
+      return res.status(204).json({ message: "No broker is found" });
+    }
+    res.json(users);
+  });
 
 module.exports = router;
