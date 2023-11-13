@@ -1,1 +1,8 @@
+Meeting minute 2	04/11/2023  4:15pm
+
+Attendees: Assane, Alimurat, Jason, Mann
+
+Jason just finished a big project milestone by putting the login feature into place. 
+Jason carefully designed a strong authentication mechanism to improve user security and expedite the onboarding process by connecting users to MongoDB. 
+Now, we have a new database of users withhouses. The group worked together to pull and integrate the code into the master branch following Jason's task. 
 
