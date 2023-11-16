@@ -1,4 +1,4 @@
-// File: /Users/alimurat/Desktop/Concordia 4th semester/FK-X-Green-SOEN341-ProjectF2023/soen341-project-frontend/app/layout.tsx
+// File: D:\AC\SOEN 341\Git\FK-X-Green-SOEN341-ProjectF2023\soen341-project-frontend\app\layout.tsx
 import * as entry from '../../../app/layout.js'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

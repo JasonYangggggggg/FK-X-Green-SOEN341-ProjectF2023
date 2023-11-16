@@ -1,8 +1,8 @@
-// File: /Users/alimurat/Desktop/Concordia 4th semester/FK-X-Green-SOEN341-ProjectF2023/soen341-project-frontend/app/(root)/page.tsx
-import * as entry from '../../../../app/(root)/page.js'
+// File: D:\AC\SOEN 341\Git\FK-X-Green-SOEN341-ProjectF2023\soen341-project-frontend\app\(routes)\(house)\deleteListing\page.tsx
+import * as entry from '../../../../../../app/(routes)/(house)/deleteListing/page.js'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
-type TEntry = typeof import('../../../../app/(root)/page.js')
+type TEntry = typeof import('../../../../../../app/(routes)/(house)/deleteListing/page.js')
 
 // Check that the entry is a valid entry
 checkFields<Diff<{

@@ -1,5 +1,7 @@
 {
+  "/(routes)/(house)/updateListing/page": "app/(routes)/(house)/updateListing/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/(routes)/(house)/deleteListing/page": "app/(routes)/(house)/deleteListing/page.js",
   "/(routes)/(auth)/brokersList/page": "app/(routes)/(auth)/brokersList/page.js",
-  "/(root)/page": "app/(root)/page.js",
-  "/(routes)/(auth)/brokers/[_id]/page": "app/(routes)/(auth)/brokers/[_id]/page.js"
+  "/(routes)/(auth)/addInfo/page": "app/(routes)/(auth)/addInfo/page.js"
 }

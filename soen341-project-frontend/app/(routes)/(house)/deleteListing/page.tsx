@@ -1,3 +1,4 @@
+"use client";
 import React, { useState } from 'react';
 import Input from '@/app/_components/_input/input';
 import Button from '@/app/_components/_button/button';

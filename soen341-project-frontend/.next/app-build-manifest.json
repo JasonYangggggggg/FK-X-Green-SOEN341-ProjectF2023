@@ -1,16 +1,22 @@
 {
   "pages": {
-    "/(root)/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/(root)/page.css",
-      "static/chunks/app/(root)/page.js"
-    ],
     "/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
+    ],
+    "/(routes)/(house)/updateListing/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/(routes)/(house)/updateListing/page.css",
+      "static/chunks/app/(routes)/(house)/updateListing/page.js"
+    ],
+    "/(routes)/(house)/deleteListing/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/(routes)/(house)/deleteListing/page.css",
+      "static/chunks/app/(routes)/(house)/deleteListing/page.js"
     ],
     "/(routes)/(auth)/brokersList/page": [
       "static/chunks/webpack.js",
@@ -18,11 +24,10 @@
       "static/css/app/(routes)/(auth)/brokersList/page.css",
       "static/chunks/app/(routes)/(auth)/brokersList/page.js"
     ],
-    "/(routes)/(auth)/brokers/[_id]/page": [
+    "/(routes)/(auth)/addInfo/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/(routes)/(auth)/brokers/[_id]/page.css",
-      "static/chunks/app/(routes)/(auth)/brokers/[_id]/page.js"
+      "static/chunks/app/(routes)/(auth)/addInfo/page.js"
     ]
   }
 }

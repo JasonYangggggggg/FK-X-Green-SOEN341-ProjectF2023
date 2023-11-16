@@ -22,6 +22,11 @@ const Navbar = () => {
           <button className="addBtn">
             <Link href="/addHouse">Add House</Link>
           </button>
+          <button className="updateLst">
+            <Link href="/updateListing">Update Listing</Link>
+          </button><button className="delList">
+            <Link href="/deleteListing">Delete Listing</Link>
+          </button>
 
           <div className="list-choice">
             <div className="list-choice-title"></div>

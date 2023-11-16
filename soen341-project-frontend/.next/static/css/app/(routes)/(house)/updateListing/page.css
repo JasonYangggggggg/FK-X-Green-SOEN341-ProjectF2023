@@ -1,0 +1,88 @@
+/*!******************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[3]!./app/_components/_input/input.css ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************/
+input{
+    height: 30px;
+    margin: 5px 30px;
+    border-radius: 5px;
+    border: solid 1px black;
+    width: 35%;
+    padding: 10px;
+}
+
+select {
+    height: 50px;
+    margin: 30px;
+    border-radius: 5px;
+    border: solid 1px black;
+    width: 15%;
+    padding: 10px;
+}
+
+.hideFile{
+    display: none;
+}
+
+
+/*!********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[3]!./app/_components/_button/button.css ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************/
+button{
+    height: 50px;
+    margin: 30px;
+    border-radius: 5px;
+    border: solid 1px red;
+    width: 15%;
+    padding: 10px;
+    background-color: red;
+    color: #f7f7f7;
+    font-weight: bold;
+}
+/*!*****************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[3]!./app/(routes)/(house)/updateListing/page.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************************/
+.container-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  .formUpdate {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .formUpdate h2 {
+    font-size: 24px;
+    margin: 0;
+    padding: 10px 0;
+  }
+  
+  .formUpdate input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .formUpdate button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .formUpdate button:hover {
+    background-color: #0056b3;
+  }
+  
+

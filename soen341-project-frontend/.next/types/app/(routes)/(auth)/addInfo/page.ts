@@ -1,8 +1,8 @@
-// File: /Users/alimurat/Desktop/Concordia 4th semester/FK-X-Green-SOEN341-ProjectF2023/soen341-project-frontend/app/(routes)/(auth)/brokers/[_id]/page.tsx
-import * as entry from '../../../../../../../app/(routes)/(auth)/brokers/[_id]/page.js'
+// File: D:\AC\SOEN 341\Git\FK-X-Green-SOEN341-ProjectF2023\soen341-project-frontend\app\(routes)\(auth)\addInfo\page.tsx
+import * as entry from '../../../../../../app/(routes)/(auth)/addInfo/page.js'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
-type TEntry = typeof import('../../../../../../../app/(routes)/(auth)/brokers/[_id]/page.js')
+type TEntry = typeof import('../../../../../../app/(routes)/(auth)/addInfo/page.js')
 
 // Check that the entry is a valid entry
 checkFields<Diff<{

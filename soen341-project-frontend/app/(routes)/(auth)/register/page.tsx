@@ -9,6 +9,7 @@ const Register = () => {
 
    const [Name, setName] = useState(null);
    const [Password, setPassword] = useState(null);
+   const [UserType, setUserType] = useState(null); // Add state for user type
 
    const nameHandler = (data : any) =>{
        setName(data.target.value);
@@ -18,11 +19,16 @@ const Register = () => {
        setPassword(data.target.value)
    }
 
+   const userTypeHandler = (data : any) =>{ // Add handler for user type
+       setUserType(data.target.value)
+   }
+
    const signup = async () => {
-      if((Name !== null && Name !== '') && (Password !== null && Password !== '')){
+      if((Name !== null && Name !== '') && (Password !== null && Password !== '') && (UserType !== null && UserType !== '')){ // Check if user type is not null or empty
          const data = {
             Name,
-            Password
+            Password,
+            UserType // Add user type to data object
         }
         const save = await axios.post('http://localhost:3001/user/signup', data);
       }
@@ -38,6 +44,11 @@ const Register = () => {
         
         <input type = "text" placeholder='Name' onChange={nameHandler} required/>
         <input type = "password" placeholder='Password' onChange={passwordHandler} required/>
+        <select onChange={userTypeHandler} required> // Add dropdown input element
+          <option value="">Select User Type</option>
+          <option value="Broker">Broker</option>
+          <option value="Homebuyer">Homebuyer</option>
+        </select>
         <button onClick={signup}>Sign Up</button>
         </form>
       </div>
@@ -65,5 +76,7 @@ const Register = () => {
     
   )
 }
+
+
 
 export default Register
