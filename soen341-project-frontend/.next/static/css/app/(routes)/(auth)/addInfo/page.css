@@ -1,0 +1,77 @@
+/*!******************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[3]!./app/_components/_input/input.css ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************/
+input{
+    height: 30px;
+    margin: 5px 30px;
+    border-radius: 5px;
+    border: solid 1px black;
+    width: 35%;
+    padding: 10px;
+}
+
+select {
+    height: 50px;
+    margin: 30px;
+    border-radius: 5px;
+    border: solid 1px black;
+    width: 15%;
+    padding: 10px;
+}
+
+.hideFile{
+    display: none;
+}
+
+
+/*!********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[3]!./app/_components/_button/button.css ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************/
+button{
+    height: 50px;
+    margin: 30px;
+    border-radius: 5px;
+    border: solid 1px red;
+    width: 15%;
+    padding: 10px;
+    background-color: red;
+    color: #f7f7f7;
+    font-weight: bold;
+}
+/*!**********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[3]!./app/(routes)/(auth)/addInfo/page.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************/
+.infobox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    place-items: center;
+    background-image: url(/_next/static/media/addInfoBcg.97191c7e.jpeg);
+    background-size: contain;
+    
+    overflow: hidden;
+    background-position: center;
+    
+}
+.formAdd{
+    width: 656px;
+    background-color: white;
+    padding-top: 30px;
+    margin-top: 50px;
+}
+
+.line{
+    font-size: 40px;
+    padding-left: 50px;
+}
+.form{
+    justify-content: center;
+    align-items: center;
+    padding-left: 200px;
+}
+.button{
+    padding-left: 245px;
+    width: 600px;
+}
+
+

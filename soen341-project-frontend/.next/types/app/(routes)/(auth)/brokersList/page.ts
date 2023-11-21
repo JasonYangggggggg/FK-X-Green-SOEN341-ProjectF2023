@@ -1,4 +1,4 @@
-// File: /Users/alimurat/Desktop/Concordia 4th semester/FK-X-Green-SOEN341-ProjectF2023/soen341-project-frontend/app/(routes)/(auth)/brokersList/page.tsx
+// File: /Users/alimurat/Desktop/Concordia 2nd semester/FK-X-Green-SOEN341-ProjectF2023/soen341-project-frontend/app/(routes)/(auth)/brokersList/page.tsx
 import * as entry from '../../../../../../app/(routes)/(auth)/brokersList/page.js'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

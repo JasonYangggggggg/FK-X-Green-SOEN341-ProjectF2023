@@ -4,6 +4,7 @@ const mongoose = require('mongoose');
 
 const userRouter = require('./routes/user');
 const houseRouter = require('./routes/house');
+const brokerRouter = require('./routes/broker');
 
 
 require('./db/mongoose');
@@ -21,6 +22,7 @@ app.use(cors({
 
 app.use('/user', userRouter);
 app.use('/house', houseRouter);
+app.use('/broker', brokerRouter);
 
 app.listen(PORT, ()=>{
     console.log(`Your backend is running on port ${PORT}`);

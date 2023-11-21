@@ -55,14 +55,14 @@
     text-decoration: none;
     color: black;
 }
-.Search{
+.loop{
    
     width: 250px;
     height: 50px;
     border-radius: 10px;
     margin-left: 400px;
 }
-.container{
+.box{
     display: flex;
     align-items: center;
     justify-content: center;

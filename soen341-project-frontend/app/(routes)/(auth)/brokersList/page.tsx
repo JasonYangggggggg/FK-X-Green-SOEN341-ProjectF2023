@@ -31,9 +31,9 @@ const page = () => {
   /*console.log(Users);*/
   return (
     <div className='app'>
-      <div className = "container">
+      <div className = "box">
       <div className="sentence">Find your broker here</div>
-      <input type = "text" placeholder="Search..." className = "Search" onChange = {e => setQuery(e.target.value)}/>
+      <input type = "text" placeholder="Search..." className = "loop" onChange = {e => setQuery(e.target.value)}/>
       </div>
       <article>
         <br />
@@ -42,7 +42,7 @@ const page = () => {
           <ul className="list">
             {Users.filter((User:any,i) => User.Name.toLowerCase().includes(query)).map((User: any, i) => {
               
-              return  <Link className='link' href={`/brokers/${User._id}`} >
+              return  <Link className='link' href={`/brokers/${User.Name}`} >
                 
               <Broker broker = {User}/> 
           </Link>;
