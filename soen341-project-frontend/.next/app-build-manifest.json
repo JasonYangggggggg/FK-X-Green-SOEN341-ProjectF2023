@@ -6,29 +6,17 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
+    "/(routes)/(auth)/calculator/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/(routes)/(auth)/calculator/page.css",
+      "static/chunks/app/(routes)/(auth)/calculator/page.js"
+    ],
     "/(root)/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/css/app/(root)/page.css",
       "static/chunks/app/(root)/page.js"
-    ],
-    "/(routes)/(auth)/brokersList/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/(routes)/(auth)/brokersList/page.css",
-      "static/chunks/app/(routes)/(auth)/brokersList/page.js"
-    ],
-    "/(routes)/(auth)/brokers/[Name]/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/(routes)/(auth)/brokers/[Name]/page.css",
-      "static/chunks/app/(routes)/(auth)/brokers/[Name]/page.js"
-    ],
-    "/(routes)/(auth)/addInfo/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/(routes)/(auth)/addInfo/page.css",
-      "static/chunks/app/(routes)/(auth)/addInfo/page.js"
     ]
   }
 }

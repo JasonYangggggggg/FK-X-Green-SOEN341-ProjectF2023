@@ -34,6 +34,10 @@ const Navbar = () => {
                         <input type="radio" name="month"/>   
                      <span><Link href = "/addInfo">Add Info</Link></span>
                     </label>
+                    <label>
+                        <input type="radio" name="month"/>   
+                     <span><Link href = "/calculator">Mortgage Calculator</Link></span>
+                    </label>
    
     
   </div>
