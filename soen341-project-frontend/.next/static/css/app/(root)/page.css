@@ -34,45 +34,96 @@ p{
 /*!**********************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[3]!./app/_components/_listing/listing.css ***!
   \**********************************************************************************************************************************************************************************************************************************************************************************/
-input{
-    width: 150px;
+input {
+  width: 150px;
 }
 
-.listingElement{
-    background-color: white;
-    color:black;
-    border-style:solid ;
-    border-color: black;
-    margin: 10px 20px 0px 20px;
-    border-radius: 13px;
-    width: 300px;
-    height: 140px;
-    box-shadow: 0 5px 15 px rgba(0,0,0,0.35);
-    padding: 50px 30px 22px 30px;
+.listingElement {
+  background-color: white;
+  color: black;
+  border-style: solid;
+  border-color: black;
+  margin: 10px 20px 0px 20px;
+  border-radius: 13px;
+  width: 300px;
+  height: 140px;
+  box-shadow: 0 5px 15 px rgba(0, 0, 0, 0.35);
+  padding: 50px 30px 22px 30px;
 }
-.listing{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-    flex-flow: row wrap;
+.listing {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-flow: row wrap;
 }
-.search-div{
-    height: 15%;
-    background-color: #f7f7f7;
-    border-radius: 15px;
-    margin: 70px 25px 25px 25px;
-    display: flex;   
+.search-div {
+  height: 15%;
+  background-color: #f7f7f7;
+  border-radius: 15px;
+  margin: 70px 25px 25px 25px;
+  display: flex;
+}
+.requestBtn {
+  width: 100px;
+}
+.Search {
+  border-radius: 15px;
+  width: 500px;
+  margin: 30px 0 0 30px;
+}
 
+.popup {
+  justify-content: center;
+  background-color: white;
+  color: black;
+  border-style: solid;
+  border-color: black;
+  margin: 10px 20px 0px 20px;
+  border-radius: 30px;
+  width: 60%;
+  height: 60%;
+  box-shadow: 0 5px 15 px rgba(0, 0, 0, 0.35);
+  padding: 22px 30px;
+
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
-.requestBtn{
-    width: 100px;
+
+.popup-content {
+  font-size: 1rem;
+  margin-top: 0.5rem;
+  color: #111112;
+  font-weight: 600;
+  text-align: center;
 }
-.Search{
-    border-radius: 15px;
-    width: 500px;
-    margin: 30px 0 0 30px ;
+
+.popupImage {
+  width: 50%;
+  height: 50%;
+  border: 5px solid black;
+  position: absolute;
+  top: 10;
+  left: 2%;
 }
+
+.popupListing {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  align-items: flex-end; /* Align items to the right within the column */
+  position: absolute;
+  top: 10; /* Align to the top */
+  right: 10%;
+}
+
+.popupButton {
+  width: auto; /* Allow button to take its natural width */
+  margin-top: 400px; /* Adjust margin as needed */
+  margin-left: 10px;
+}
+
 /*!******************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[12].use[3]!./app/_components/_input/input.css ***!
   \******************************************************************************************************************************************************************************************************************************************************************************/
