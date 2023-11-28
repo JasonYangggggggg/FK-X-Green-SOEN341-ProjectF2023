@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 
 const userRouter = require('./routes/user');
 const houseRouter = require('./routes/house');
-const brokerRouter = require('./routes/broker');
+const resvervationRouter = require('./routes/reservation');
 
 
 require('./db/mongoose');
@@ -19,10 +19,13 @@ app.use(cors({
     origin: true,
     credentials: true
 }));
-
+app.use(express.json({ limit: '50mb' }));
+app.use(express.urlencoded({ extended: true, limit: '50mb' }));
 app.use('/user', userRouter);
 app.use('/house', houseRouter);
-app.use('/broker', brokerRouter);
+app.use('/reservation', resvervationRouter);
+app.use(express.json());
+
 
 app.listen(PORT, ()=>{
     console.log(`Your backend is running on port ${PORT}`);
