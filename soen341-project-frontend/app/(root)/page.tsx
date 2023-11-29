@@ -20,6 +20,7 @@ const sayhi = async()=> {
           console.error('Error during logout:', error);
       }
 }
+
 function Home() {
   const [name, setName] = useState('');
   const userouter = useRouter();
