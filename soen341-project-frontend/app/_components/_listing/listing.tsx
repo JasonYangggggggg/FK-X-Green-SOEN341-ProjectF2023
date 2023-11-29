@@ -7,6 +7,7 @@ import Button from "../_button/button";
 import defaultHouse from "./defaultHouse.png";
 import kameHouse from "./kameHouse.jpg";
 import { Stack, TextField } from "@mui/material";
+import Link from "next/link";
 
 export default function Listing() {
   const [Houses, setHouses] = useState([]);
@@ -88,12 +89,18 @@ export default function Listing() {
                   <br />
                   Image: {House?.Image}
                   <br />
+                  <div className="buttons">
+                  <Link  href={`/calculator/${House?.Price}`}>
+                  <button className="mortgage">Mortgage Calculator</button>
+                  </Link>
                   <button
                     className="requestBtn"
                     onClick={() => handleRequestVisit(House)}
                   >
                     Request visit
                   </button>
+                  </div>
+
                   <br />
                   <br />
                 </li>

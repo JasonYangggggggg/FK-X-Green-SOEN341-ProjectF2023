@@ -87,3 +87,10 @@ input {
   margin-top: 400px; /* Adjust margin as needed */
   margin-left: 10px;
 }
+.buttons{
+  display: flex;
+
+}
+.mortgage{
+  width: 100px;
+}

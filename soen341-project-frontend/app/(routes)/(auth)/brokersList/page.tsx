@@ -20,6 +20,7 @@ const page = () => {
   const getData = async () => {
     try {
       const users = await axios.get("http://localhost:3001/user/get");
+      console.log(users);
       setUsers(users.data);
 
       // // Set the fetched data to the houseData state if needed

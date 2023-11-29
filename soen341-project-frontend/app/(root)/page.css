@@ -6,13 +6,13 @@ p{
     font-size: larger;
 }
 
-.main-ladning{
+.main-landing{
     justify-content: center;
     text-align: center;
     padding-top: 10%;
     font-family: sans-serif;
     background-image: url("./landing.jpg");
-    height: 800px;
+    
     background-size: contain;
     background-size: cover;
     overflow: hidden;

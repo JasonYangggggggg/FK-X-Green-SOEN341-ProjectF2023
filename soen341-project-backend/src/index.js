@@ -6,9 +6,11 @@ const session = require('express-session');
 const cookieParser = require('cookie-parser');
 const User = require('./models/user');
 const bcrypt = require('bcryptjs');
+
 const userRouter = require('./routes/user');
 const houseRouter = require('./routes/house');
 const resvervationRouter = require('./routes/reservation');
+const brokerRouter = require('./routes/broker');
 
 require('./db/mongoose');
 
@@ -110,7 +112,9 @@ app.post('/logout', async(req,res)=> {
 
 
 app.use('/house', houseRouter);
+app.use('/user', userRouter );
 app.use('/reservation', resvervationRouter);
+app.use('/broker', brokerRouter);
 
 app.listen(PORT, () => {
     console.log(`Your backend is running on port ${PORT}`);
