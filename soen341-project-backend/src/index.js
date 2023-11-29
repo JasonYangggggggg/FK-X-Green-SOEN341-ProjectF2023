@@ -40,13 +40,21 @@ app.use(express.urlencoded({ extended: true, limit: '50mb' }));
 // Your route handlers
 //app.use('/user', userRouter);
 app.get('/', (req,res)=> {
+    console.log(req);
     if(req.session.user){
-        return res.json({Login:true, name: req.session.user});
+        return res.json({Login:true, name: req.session.user, Role: req.session.Role});
     }
     else{
         return res.json({Login: false});
     }
 })
+
+app.post('/signup', async (req, res) => {
+    const user = new User(req.body);
+    await user.save();
+    console.log(user);
+    res.send(true);
+});
 app.post('/login', async (req, res) => {
     try {
         // If the user is already authenticated, send true
@@ -72,10 +80,11 @@ app.post('/login', async (req, res) => {
         }
 
         // Set the session variable to indicate that the user is logged in
-        req.session.user = { id: user.id, Name: user.Name };
+        req.session.user = { id: user.id, Name: user.Name, Role: user.Role };
         console.log(req.session);
         console.log('Authenticated successfully');
-        return res.json({Login:true, name: req.session.user});
+        console.log(user.Role);
+        return res.json({Login:true, name: req.session.user, role: user.Role});
 
     } catch (e) {
         console.log('Error during login:', e);
