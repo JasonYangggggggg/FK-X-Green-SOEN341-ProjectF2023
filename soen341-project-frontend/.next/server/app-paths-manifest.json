@@ -3,6 +3,5 @@
   "/(routes)/(auth)/calculator/[Price]/page": "app/(routes)/(auth)/calculator/[Price]/page.js",
   "/(routes)/(auth)/brokersList/page": "app/(routes)/(auth)/brokersList/page.js",
   "/(routes)/(auth)/register/page": "app/(routes)/(auth)/register/page.js",
-  "/(routes)/(auth)/login/page": "app/(routes)/(auth)/login/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js"
+  "/(routes)/(auth)/login/page": "app/(routes)/(auth)/login/page.js"
 }

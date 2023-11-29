@@ -8,6 +8,8 @@ import defaultHouse from "./defaultHouse.png";
 import kameHouse from "./kameHouse.jpg";
 import { Stack, TextField } from "@mui/material";
 import Link from "next/link";
+import Image from 'next/image';
+import houseIMG from "./houseIMG.jpeg";
 
 export default function Listing() {
   const [Houses, setHouses] = useState([]);
@@ -80,16 +82,31 @@ export default function Listing() {
                 House.City.toLowerCase().includes(query)
             ).map((House: any, i) => {
               return (
+                <div className="general">
+                <div className = "img">
+                <Image className= "houseImg" src = {houseIMG} alt ='' width = "275"/>
+                </div>
+                <div className="elements">
                 <li className="listingElement" key={i}>
-                  Type: {House?.Type}
+                  
+                  <div className = "attributes" >
+                  Type: <div id = "one">{House?.Type}</div>
+                  </div>
+                  <div className = "attributes">
+                  City: <div id = "two">{House?.City}</div>
+                  </div>
+                  <div className = "attributes">
+                  Price: <div id = "three">{House?.Price}$</div>
+                  </div>
+                  
+                  
+                  
+                  
+
                   <br />
-                  City: {House?.City}
                   <br />
-                  Price: {House?.Price}$
-                  <br />
-                  Image: {House?.Image}
-                  <br />
-                  <div className="buttons">
+                </li>
+                <div className="buttons">
                   <Link  href={`/calculator/${House?.Price}`}>
                   <button className="mortgage">Mortgage Calculator</button>
                   </Link>
@@ -100,10 +117,8 @@ export default function Listing() {
                     Request visit
                   </button>
                   </div>
-
-                  <br />
-                  <br />
-                </li>
+                </div>
+                </div>
               );
             })}
           </ul>
