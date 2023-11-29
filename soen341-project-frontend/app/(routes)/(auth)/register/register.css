@@ -19,7 +19,7 @@
   
   }
   
-  .container{
+  .box{
     background-color: #fff;
     border-radius: 30px;
     box-shadow: 0 5px 15 px rgba(0,0,0,0.35);
@@ -29,14 +29,14 @@
     max-width: 100%;
     min-height: 480px;
   }
-  .container p{
+  .box p{
     font-size:14px;
     line-height: 20px;
     letter-spacing: 0.3px;
     margin:20px 0;
   }
   
-  .container button{
+  .box button{
     background-color: #e2360f;
     color: white;
     font-size: 12px;
@@ -51,7 +51,7 @@
     width: 120px;
   }
   
-  .container form{
+  .box form{
     background-color: white;
     display: flex;
     align-items: center;
@@ -62,7 +62,7 @@
     
   }
 
-  .container input{
+  .box input{
     background-color: #eee;
     border: none;
     margin: 8px 0;
@@ -88,7 +88,6 @@
     width: 50%;
     height: 100%;
     overflow: hidden;
-    transition: all 0.6s ease-in-out;
     border-radius: 0 150px 100px 0;
     z-index:1000;
   }
@@ -100,8 +99,7 @@
     position: relative;
     height: 100%;
     width: 200%;
-    transform: translateX(0);
-    transition:all 0.6s ease-in-out;
+    
   
   }
 
@@ -116,6 +114,15 @@
     padding: 0 30px;
     text-align: center;
     top:0;
-    transform: translateX(0);
-    transition: all 0.6s ease-in-out;
+    
+  }
+  .create{
+    margin-bottom: 28px;
+  }
+  .select{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 100px;
+    height: 30px;
+    border-radius: 6px;
   }

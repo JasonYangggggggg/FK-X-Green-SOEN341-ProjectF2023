@@ -49,7 +49,9 @@ const Login = () => {
 
       <div className = "form-container sign-in">
         <form>
+          <div className='text'>
           <h1>Sign In</h1>
+          </div>
         
         <input type = "text" placeholder='Name' onChange={nameHandler}/>
         <input type = "password" placeholder='Password' onChange={passwordHandler}/>

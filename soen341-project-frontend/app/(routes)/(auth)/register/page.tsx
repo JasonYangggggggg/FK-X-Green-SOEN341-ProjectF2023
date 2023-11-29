@@ -38,14 +38,17 @@ const Register = () => {
   return (
     <div>
     <div className = "SignUp-Page">
-    <div className = "container" id = "container">
+    <div className = "box" id = "box">
       <div className = "form-container sign-up">
         <form>
+          <div className='create'>
+            
           <h1>Create Account</h1>
+          </div>
         
         <input type = "text" placeholder='Name' onChange={nameHandler} required/>
         <input type = "password" placeholder='Password' onChange={passwordHandler} required/>
-        <select onChange={roleHandler}>
+        <select className = "select"onChange={roleHandler}>
           <option value="User">User</option>
           <option value="Broker">Broker</option>
         </select>
@@ -60,7 +63,7 @@ const Register = () => {
           <div className = "right-panel right-left">
           <h1> Hello!</h1>
             <p>Register with your personal details to look for a nice house</p>
-            <button  id = "login"><Link href= 'dashboard'>Sign In</Link></button>
+            <button  id = "login"><Link href= '/login'>Sign In</Link></button>
           </div>
 
          
