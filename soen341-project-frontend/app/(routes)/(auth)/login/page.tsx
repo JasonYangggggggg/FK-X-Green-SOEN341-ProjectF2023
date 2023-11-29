@@ -2,11 +2,12 @@
 import React, { useState } from 'react'
 import "./login.css";
 import Link from 'next/link';
+import { useRouter } from 'next/navigation';
 
 import axios from 'axios';
 
 const Login = () => {
-
+  const router = useRouter();
    const [Name, setName] = useState(null);
    const [Password, setPassword] = useState(null);
 
@@ -17,14 +18,26 @@ const Login = () => {
    const passwordHandler = (data : any) =>{
        setPassword(data.target.value)
    }
-
-   const login = async () => {
+   axios.defaults.withCredentials = true;
+   const login = async (event:any) => {
+    event.preventDefault(); 
       if((Name !== null && Name !== '') && (Password !== null && Password !== '')){
          const data = {
             Name,
             Password
         }
-        const save = await axios.post('http://localhost:3001/user/login', data);
+    try{
+      const response =  await axios.post('http://localhost:3001/login', data);
+      if(response.data){
+        console.log("success");
+
+    
+       router.push("/");
+      }
+    }catch(error){
+      console.log(error);
+    }
+
       }
    }
    
@@ -40,7 +53,7 @@ const Login = () => {
         
         <input type = "text" placeholder='Name' onChange={nameHandler}/>
         <input type = "password" placeholder='Password' onChange={passwordHandler}/>
-        <button onClick={login}>Sign In</button>
+        <button onClick={login}>log In</button>
         </form>
       </div>
       
@@ -66,5 +79,5 @@ const Login = () => {
   )
 }
 
-export default Login
+export default Login;
   
