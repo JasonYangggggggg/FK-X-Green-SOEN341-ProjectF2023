@@ -2,14 +2,54 @@
 import './page.css';
 import Input from '../_components/_input/input';
 import Button from '../_components/_button/button';
+import {useState,useEffect} from 'react';
 import Listing from '../_components/_listing/listing';
-export default function Home() {
+import axios from 'axios';
+import {useRouter} from 'next/navigation';
+
+const sayhi = async()=> {
+  try {
+          const response = await axios.post('http://localhost:3001/logout');
+          if (response.data.success) {
+              console.log(response.data);
+              window.location.reload();
+          } else {
+              console.error('Logout failed');
+          }
+      } catch (error) {
+          console.error('Error during logout:', error);
+      }
+}
+function Home() {
+  const [name, setName] = useState('');
+  const userouter = useRouter();
+  axios.defaults.withCredentials = true;
+  useEffect(()=> {
+  axios.get('http://localhost:3001').then(res => {
+    console.log(res);
+    if(res.data.Login){
+      setName(res.data.user);
+    }
+    else{
+      userouter.push('/login');
+    }
+  }).catch(err => console.log(err))
+  },[]);
   return (
    <div className="main-ladning">
       <h1>Find Your Dream Home</h1>
       <p>Find a nice house using below filter!</p>
-     <Listing/>
-      
+      <div className="search-div">
+        <Input label="Keyword" type="text" handler={()=>{}}/>
+        <Input label="Type" type="select" handler={()=>{}}/>
+        <Input label="City" type="text" handler={()=>{}}/>
+        <Input label="Price" type="select" handler={()=>{}}/>
+        <Button label="Search" handler={()=>{}}/>
+        <Button label="Log out" handler={sayhi} />
+        <Listing/>
+      </div>
    </div>
   )
 }
+
+export default Home;
