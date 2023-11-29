@@ -47,6 +47,11 @@
       "static/chunks/main-app.js",
       "static/css/app/(routes)/(auth)/calculator/[Price]/page.css",
       "static/chunks/app/(routes)/(auth)/calculator/[Price]/page.js"
+    ],
+    "/not-found": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/not-found.js"
     ]
   }
 }
