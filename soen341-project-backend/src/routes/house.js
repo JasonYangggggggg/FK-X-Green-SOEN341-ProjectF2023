@@ -1,14 +1,33 @@
+const router = require("express").Router();
+const multer = require("multer");
+const upload = multer(); // Use multer for handling file uploads
+
 const House = require("../models/house");
 
-const router = require("express").Router();
+// Middleware to handle file upload
+const uploadMiddleware = upload.single("Image");
 
-router.post("/add", async (req, res) => {
-  const house = new House(req.body);
-  await house.save();
-  console.log(house);
-  res.send(true);
+router.post("/add", uploadMiddleware, async (req, res) => {
+  const { Type, City, Price } = req.body;
+  const house = new House({
+    Type,
+    City,
+    Price,
+    Image: {
+      data: req.file.buffer,
+      contentType: req.file.mimetype,
+    },
+  });
+
+  try {
+    await house.save();
+    console.log(house.Price);
+    res.send(true);
+  } catch (error) {
+    console.error("Failed to save the house:", error);
+    res.status(500).json({ error: "Internal server error" });
+  }
 });
-
 router.get("/get", async (req, res) => {
   const houses = await House.find();
   if (!houses) {
@@ -17,33 +36,6 @@ router.get("/get", async (req, res) => {
   res.json(houses);
 });
 
-router.put("/update/:id", async (req, res) => {
-  const { id } = req.params;
-  try {
-    const updatedHouse = await House.findByIdAndUpdate(id, req.body, { new: true });
-    if (!updatedHouse) {
-      return res.status(404).json({ message: "House not found" });
-    }
-    res.json(updatedHouse);
-  } catch (error) {
-    console.error("Failed to update the listing:", error);
-    res.status(500).json({ error: "Update failed" });
-  }
-});
-
-router.delete("/delete/:id", async (req, res) => {
-  const { id } = req.params;
-  try {
-    const deletedHouse = await House.findByIdAndDelete(id);
-    if (!deletedHouse) {
-      return res.status(404).json({ message: "House not found" });
-    }
-    res.json({ message: "House deleted successfully" });
-  } catch (error) {
-    console.error("Failed to delete the listing:", error);
-    res.status(500).json({ error: "Deletion failed" });
-  }
-});
+// ... other routes
 
 module.exports = router;
-

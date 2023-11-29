@@ -12,9 +12,12 @@ export default function Listing() {
   const [Houses, setHouses] = useState([]);
   const [query, setQuery] = useState("");
   const [showPopup, setShowPopup] = useState(false);
-  const [selectedHouse, setSelectedHouse] = useState() as any;
-
-  const [name, setname] = useState("");
+  const [selectedHouse, setSelectedHouse] = useState(null);
+  const [formData, setFormData] = useState({
+    name: "",
+    address: "",
+    phoneNumber: "",
+  });
 
   //onMount
   useEffect(() => {
@@ -25,6 +28,7 @@ export default function Listing() {
   const getData = async () => {
     try {
       const houses = await axios.get("http://localhost:3001/house/get");
+      console.log(houses);
       setHouses(houses.data);
 
       // // Set the fetched data to the houseData state if needed
@@ -55,22 +59,10 @@ export default function Listing() {
   return (
     <div>
       <div className="search-div">
-        <div>
-          <input
-            type="text"
-            placeholder="Search..."
-            className="Search"
-            onChange={(e) => setQuery(e.target.value)}
-          />
-        </div>
-        <Input label="Type" type="select" handler={() => {}} />
-
-        <Input label="Price" type="select" handler={() => {}} />
-        <Button label="Search" handler={() => {}} />
+        {/* ... (Your existing search inputs and buttons) */}
       </div>
       <article>
         <br />
-
         {Houses?.length ? (
           <ul className="listing">
             {Houses.filter(
@@ -78,6 +70,18 @@ export default function Listing() {
                 House.Type.toLowerCase().includes(query) ||
                 House.City.toLowerCase().includes(query)
             ).map((House: any, i) => {
+              // Check if Image property is an object
+              let imageDataUrl = "";
+              if (typeof House?.Image === "object") {
+                // Extract the image data from the object (modify this part based on your data structure)
+                imageDataUrl = `data:image/jpeg;base64,${Buffer.from(
+                  House.Image.data
+                ).toString("base64")}`;
+              } else if (typeof House?.Image === "string") {
+                // Handle the case where Image is already a string
+                imageDataUrl = House.Image;
+              }
+
               return (
                 <li className="listingElement" key={i}>
                   Type: {House?.Type}
@@ -86,7 +90,7 @@ export default function Listing() {
                   <br />
                   Price: {House?.Price}$
                   <br />
-                  Image: {House?.Image}
+                  Image: <img src={imageDataUrl} alt="house" />
                   <br />
                   <button
                     className="requestBtn"
@@ -110,63 +114,32 @@ export default function Listing() {
         <div className="popup ">
           <div className="popup-content ">
             <p>
-              {/*Confirm visit for {selectedHouse?.Type} in {selectedHouse?.City}?*/}
+              Confirm visit for {selectedHouse?.Type} in {selectedHouse?.City}?
             </p>
-
-            {/* Content of the pop-up */}
-            <img src={kameHouse.src} className="popupImage" alt="default"></img>
-
-            {/* <li className="popupListing ">
+            <img
+              src={`data:image/jpeg;base64,${Buffer.from(
+                selectedHouse?.Image
+              ).toString("base64")}`}
+              className="popupImage"
+              alt="house"
+            />
+            <div className="popupListing">
               <h2>
                 Type: {selectedHouse?.Type}
                 <br />
-                <br />
                 City: {selectedHouse?.City}
                 <br />
-                <br />
                 Price: {selectedHouse?.Price}$
-                <br />
-                <br />
               </h2>
-            </li> */}
+            </div>
             <div className="popupListing">
               <h2>Fill out form</h2>
               <Stack spacing={4}>
                 <Stack direction="column" spacing={3}>
-                  <TextField
-                    label={selectedHouse?.City}
-                    variant="standard"
-                    color="secondary"
-                    InputProps={{ readOnly: true }}
-                    helperText="House location"
-                    disabled
-                  />
-                  <TextField
-                    label="Name"
-                    variant="standard"
-                    color="secondary"
-                    required
-                    error
-                  />
-                  <TextField
-                    label="Adress"
-                    variant="standard"
-                    color="secondary"
-                    required
-                    error
-                  />
-                  <TextField
-                    label="Phone number"
-                    variant="standard"
-                    color="secondary"
-                    required
-                    error
-                  />
+                  {/* ... (Your existing form inputs) */}
                 </Stack>
               </Stack>
             </div>
-
-            {/* Confirm and Close buttons */}
             <button className="popupButton" onClick={handleConfirmVisit}>
               Confirm
             </button>

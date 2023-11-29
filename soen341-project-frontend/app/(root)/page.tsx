@@ -5,6 +5,7 @@ import Button from '../_components/_button/button';
 import {useState,useEffect} from 'react';
 import axios from 'axios';
 import {useRouter} from 'next/navigation';
+import Listing from '../_components/_listing/listing';
 
 const sayhi = async()=> {
   try {
@@ -37,7 +38,7 @@ function Home() {
       
     }
     else{
-      userouter.push('/login');
+      //userouter.push('/login');
     }
   }).catch(err => console.log(err))
   },[]);
@@ -45,6 +46,7 @@ function Home() {
    <div className="main-ladning">
       <h1>Find Your Dream Home</h1>
       <p>Find a nice house using below filter!</p>
+      <Listing/>  
       <div className="search-div">
         <Input label="Keyword" type="text" handler={()=>{}}/>
         <Input label="Type" type="select" handler={()=>{}}/>

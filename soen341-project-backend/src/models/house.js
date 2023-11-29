@@ -4,10 +4,12 @@ const houseSchema = new mongoose.Schema({
     Type: { type: String, required: true },
     City: { type: String, required: true },
     Price: { type: Number, required: true },
-    ImgBuffer: { type: mongoose.Schema.Types.Buffer },
-    ImgContentType: { type : String } 
+    Image: {
+        data: { type: mongoose.Schema.Types.Buffer },
+        contentType: { type: String }
+    }
 }, {
-    timestamps : true
+    timestamps: true
 });
 
 const House = mongoose.model('House', houseSchema);
