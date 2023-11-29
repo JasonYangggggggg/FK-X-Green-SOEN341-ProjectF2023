@@ -3,7 +3,6 @@ import './page.css';
 import Input from '../_components/_input/input';
 import Button from '../_components/_button/button';
 import {useState,useEffect} from 'react';
-import Listing from '../_components/_listing/listing';
 import axios from 'axios';
 import {useRouter} from 'next/navigation';
 
@@ -11,6 +10,7 @@ const sayhi = async()=> {
   try {
           const response = await axios.post('http://localhost:3001/logout');
           if (response.data.success) {
+              // Redirect or perform any additional actions after logout
               console.log(response.data);
               window.location.reload();
           } else {
@@ -26,9 +26,14 @@ function Home() {
   axios.defaults.withCredentials = true;
   useEffect(()=> {
   axios.get('http://localhost:3001').then(res => {
-    console.log(res);
+    //console.log(res.data.name.Role);
     if(res.data.Login){
       setName(res.data.user);
+      //now it will go to the addhouse route if the role is the person is broker
+      // if(res.data.name.Role == "Broker"){
+      //   userouter.push("/addHouse");
+      // }
+      
     }
     else{
       userouter.push('/login');
@@ -46,7 +51,6 @@ function Home() {
         <Input label="Price" type="select" handler={()=>{}}/>
         <Button label="Search" handler={()=>{}}/>
         <Button label="Log out" handler={sayhi} />
-        <Listing/>
       </div>
    </div>
   )
