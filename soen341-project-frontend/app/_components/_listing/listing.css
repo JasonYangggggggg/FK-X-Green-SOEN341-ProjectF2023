@@ -5,14 +5,17 @@ input {
 .listingElement {
   background-color: white;
   color: black;
-  border-style: solid;
-  border-color: black;
-  margin: 10px 20px 0px 20px;
-  border-radius: 13px;
+  border:none;
+  display: flex;
+  flex-direction: row;
+  box-shadow: 0 5px 15 px rgba(172, 162, 162, 0.35);
   width: 300px;
-  height: 140px;
-  box-shadow: 0 5px 15 px rgba(0, 0, 0, 0.35);
-  padding: 50px 30px 22px 30px;
+  max-width: 300px;;
+  margin-bottom: -15px;
+  margin-top: 5px;
+  
+
+  
 }
 .listing {
   display: flex;
@@ -86,4 +89,50 @@ input {
   width: auto; /* Allow button to take its natural width */
   margin-top: 400px; /* Adjust margin as needed */
   margin-left: 10px;
+}
+.buttons{
+  display: flex;
+  margin-left: -250px;
+  margin-top: 35px;
+  justify-content: center;
+
+}
+.mortgage{
+  width: 100px;
+  padding-left: -10px;
+}
+.general{
+  height :380px;
+  width: 300px;
+  background-color: rgb(255, 255, 255);
+  margin-bottom: 30px;
+  margin-left: 50px;
+  border-radius: 18px;
+  transition: transform 0.3s ease;
+}
+.general:hover{
+  transform: scale(1.1);
+}
+.attributes{
+  margin:8px 6px;
+  
+  
+}
+.img{
+  border-radius: 18px;
+}
+#one{
+  background-color: rgb(168, 246, 246);
+  border-radius: 5px;
+  padding: 0px 2px;
+}
+#two{
+  background-color: rgb(174, 243, 173);
+  border-radius: 5px;
+  padding: 0px 2px;
+}
+#three{
+  background-color: rgb(247, 188, 140);
+  border-radius: 5px;
+  padding: 0px 2px;
 }

@@ -20,6 +20,7 @@ const page = () => {
   const getData = async () => {
     try {
       const users = await axios.get("http://localhost:3001/user/get");
+      console.log(users);
       setUsers(users.data);
 
       // // Set the fetched data to the houseData state if needed
@@ -40,13 +41,11 @@ const page = () => {
 
         
           <ul className="list">
-            {Users.filter((User:any,i) => User.Name.toLowerCase().includes(query)).map((User: any, i) => {
-              
-              return  <Link className='link' href={`/brokers/${User.Name}`} >
-                
-              <Broker broker = {User}/> 
-          </Link>;
-            })}
+          {Users.filter((User: any) => User.Role === 'Broker' && User.Name.toLowerCase().includes(query)).map((User: any, i: number) => (
+    <Link className='link' href={`/brokers/${User.Name}`} key={i}>
+        <Broker broker={User}/> 
+    </Link>
+))}
           </ul>
         
       </article>

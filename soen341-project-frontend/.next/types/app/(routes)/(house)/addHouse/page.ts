@@ -1,4 +1,4 @@
-// File: C:\Users\jyang\Downloads\FK-X-Green-SOEN341-ProjectF2023-img\FK-X-Green-SOEN341-ProjectF2023-img\soen341-project-frontend\app\(routes)\(house)\addHouse\page.tsx
+// File: /Users/alimurat/Desktop/Concordia 3rd semester/FK-X-Green-SOEN341-ProjectF2023/soen341-project-frontend/app/(routes)/(house)/addHouse/page.tsx
 import * as entry from '../../../../../../app/(routes)/(house)/addHouse/page.js'
 import type { ResolvingMetadata } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

@@ -7,6 +7,7 @@ import Button from "../_button/button";
 import defaultHouse from "./defaultHouse.png";
 import kameHouse from "./kameHouse.jpg";
 import { Stack, TextField } from "@mui/material";
+import Link from "next/link";
 
 export default function Listing() {
   const [userId, setUserId] = useState("");
@@ -73,8 +74,19 @@ export default function Listing() {
 
   return (
     <div>
-      <div className="search-div">
-        {/* ... (Your existing search inputs and buttons) */}
+       <div className="search-div">
+        <div>
+          <input
+            type="text"
+            placeholder="Search..."
+            className="Search"
+            onChange={(e) => setQuery(e.target.value)}
+          />
+        </div>
+        <Input label="Type" type="select" handler={() => {}} />
+
+        <Input label="Price" type="select" handler={() => {}} />
+        <Button label="Search" handler={() => {}} />
       </div>
       <article>
         <br />
@@ -98,24 +110,38 @@ export default function Listing() {
               }
 
               return (
+                <div className="general">
+                <div className = "img">
+                <img src={imageDataUrl} alt="house" width="300" height="200" />
+                </div>
+                <div className="elements">
                 <li className="listingElement" key={i}>
-                  Type: {House?.Type}
-                  <br />
-                  City: {House?.City}
-                  <br />
-                  Price: {House?.Price}$
-                  <br />
-                  {/* Image: <img src={imageDataUrl} alt="house" />
-                  <br /> */}
+                <div className = "attributes" >
+                  Type: <div id = "one">{House?.Type}</div>
+                  </div>
+                  <div className = "attributes">
+                  City: <div id = "two">{House?.City}</div>
+                  </div>
+                  <div className = "attributes">
+                  Price: <div id = "three">{House?.Price}$</div>
+                  </div>
+
+                  <div className="buttons">
+                  <Link  href={`/calculator/${House?.Price}`}>
+                  <button className="mortgage">Mortgage Calculator</button>
+                  </Link>
                   <button
                     className="requestBtn"
                     onClick={() => handleRequestVisit(House)}
                   >
                     Request visit
                   </button>
+                  </div>
                   <br />
                   <br />
                 </li>
+                </div>
+                </div>
               );
             })}
           </ul>

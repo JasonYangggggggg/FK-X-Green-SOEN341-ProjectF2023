@@ -12,7 +12,7 @@ p{
     padding-top: 10%;
     font-family: sans-serif;
     background-image: url("./landing.jpg");
-    height: 800px;
+    height: 1200px;
     background-size: contain;
     background-size: cover;
     overflow: hidden;
@@ -27,3 +27,4 @@ p{
     margin: 25px;
     display: flex;    
 }
+

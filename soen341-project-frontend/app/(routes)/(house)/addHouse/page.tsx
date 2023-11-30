@@ -147,6 +147,7 @@ export default function AddHouse() {
     import Button from '@/app/_components/_button/button';
     import axios from 'axios';
     import { useRouter } from 'next/navigation';
+    import './page.css';
 
     axios.defaults.withCredentials = true;
     

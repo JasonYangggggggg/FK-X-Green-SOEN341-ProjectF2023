@@ -46,17 +46,13 @@ function Home() {
   },[]);
   return (
    <div className="main-ladning">
+    
     <Button label="Log out" handler={sayhi} />
+    
       <h1>Find Your Dream Home</h1>
       <p>Find a nice house using below filter!</p>
       <Listing/>  
-      <div className="search-div">
-        <Input label="Keyword" type="text" handler={()=>{}}/>
-        <Input label="Type" type="select" handler={()=>{}}/>
-        <Input label="City" type="text" handler={()=>{}}/>
-        <Input label="Price" type="select" handler={()=>{}}/>
-        <Button label="Search" handler={()=>{}}/>
-      </div>
+      
    </div>
   )
 }
