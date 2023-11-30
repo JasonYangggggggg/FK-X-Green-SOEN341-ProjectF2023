@@ -27,6 +27,7 @@
     "/(routes)/(BrokerView)/view/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
+      "static/css/app/(routes)/(BrokerView)/view/page.css",
       "static/chunks/app/(routes)/(BrokerView)/view/page.js"
     ],
     "/(routes)/(auth)/brokersList/page": [
@@ -52,6 +53,12 @@
       "static/chunks/main-app.js",
       "static/css/app/(routes)/(auth)/addInfo/page.css",
       "static/chunks/app/(routes)/(auth)/addInfo/page.js"
+    ],
+    "/(routes)/(auth)/register/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/(routes)/(auth)/register/page.css",
+      "static/chunks/app/(routes)/(auth)/register/page.js"
     ]
   }
 }

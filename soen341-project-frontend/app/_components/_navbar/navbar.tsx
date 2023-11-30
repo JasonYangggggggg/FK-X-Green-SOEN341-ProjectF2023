@@ -36,7 +36,7 @@ const Navbar = () => {
                     </label>
                     <label>
                         <input type="radio" name="month"/>   
-                     <span><Link href = "/calculator">Mortgage Calculator</Link></span>
+                     <span><Link href = "/view">Reservations</Link></span>
                     </label>
    
     

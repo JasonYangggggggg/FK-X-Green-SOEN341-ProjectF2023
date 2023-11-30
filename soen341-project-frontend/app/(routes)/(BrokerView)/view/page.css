@@ -1,0 +1,16 @@
+.text{
+    font-size: 40px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.sentence{
+    margin-top: 50px;
+    margin-left: 60px;
+    font-size: 25px;
+    border-radius: 6px;
+    background-color: aliceblue;
+    width: 400px;
+    height: 40px;
+    padding-top: 7px;
+    padding-left: 7px;
+}

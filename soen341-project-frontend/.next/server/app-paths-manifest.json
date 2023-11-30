@@ -1,7 +1,9 @@
 {
-  "/(routes)/(auth)/login/page": "app/(routes)/(auth)/login/page.js",
+  "/(routes)/(auth)/brokersList/page": "app/(routes)/(auth)/brokersList/page.js",
+  "/(routes)/(auth)/register/page": "app/(routes)/(auth)/register/page.js",
+  "/(routes)/(BrokerView)/view/page": "app/(routes)/(BrokerView)/view/page.js",
   "/(routes)/(auth)/calculator/[Price]/page": "app/(routes)/(auth)/calculator/[Price]/page.js",
-  "/(routes)/(auth)/brokers/[Name]/page": "app/(routes)/(auth)/brokers/[Name]/page.js",
+  "/(root)/page": "app/(root)/page.js",
   "/(routes)/(auth)/addInfo/page": "app/(routes)/(auth)/addInfo/page.js",
-  "/(root)/page": "app/(root)/page.js"
+  "/favicon.ico/route": "app/favicon.ico/route.js"
 }
