@@ -1,0 +1,44 @@
+.container-form{
+    height: 800px;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    place-items: center;
+    background-image: url("./addHouseImage.jpeg");
+    background-size: contain;
+    background-size: cover;
+    overflow: hidden;
+    background-position: center;
+    
+}
+.formAdd{
+    text-align: center;
+    justify-content: center;
+    width: 600px;
+    background: linear-gradient(to right,#f0e6d8,#fbd0a4) ;
+    padding: 30px;
+    border-radius: 40px;
+    
+}
+.form{
+    border: solid;
+    border-radius: 50px;
+    background-image: linear-gradient(to right,#f7f7f7,#f7f7f7f0),url("./addHouseImage.jpeg");
+    background-position: center;
+    background-position: center;
+    border: none;
+    padding:20px 0;
+    width:500px;
+    margin-left: 20px;
+    
+}
+h2{
+    margin:0 0 20px 0;
+    color:#ffffff
+}
+.elements{
+    margin:5px 0;
+    justify-content: center;
+   
+
+}

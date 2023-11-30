@@ -1,0 +1,22 @@
+input{
+    height: 30px;
+    margin: 5px 30px;
+    border-radius: 5px;
+    border: solid 1px black;
+    width: 35%;
+    padding: 10px;
+}
+
+select {
+    height: 50px;
+    margin: 30px;
+    border-radius: 5px;
+    border: solid 1px black;
+    width: 15%;
+    padding: 10px;
+}
+
+.hideFile{
+    display: none;
+}
+

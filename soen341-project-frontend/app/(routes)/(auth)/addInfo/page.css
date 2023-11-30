@@ -1,0 +1,33 @@
+.infobox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    place-items: center;
+    background-image: url("./addInfoBcg.jpeg");
+    background-size: contain;
+    
+    overflow: hidden;
+    background-position: center;
+    
+}
+.formAdd{
+    width: 656px;
+    background-color: white;
+    padding-top: 30px;
+    margin-top: 50px;
+}
+
+.line{
+    font-size: 40px;
+    padding-left: 50px;
+}
+.form{
+    justify-content: center;
+    align-items: center;
+    padding-left: 200px;
+}
+.button{
+    padding-left: 245px;
+    width: 600px;
+}
+
